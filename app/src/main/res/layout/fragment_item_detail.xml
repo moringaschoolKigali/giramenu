@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:id="@+id/bottom_sheet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="true"
+    android:background="@android:color/white">
+
+    <!--app:layout_behavior="android.support.design.widget.BottomSheetBehavior"-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/cover"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:src="@drawable/thumb"
+            android:scaleType="centerCrop"
+            android:alpha="0.7"/>
+
+        <LinearLayout
+
+            style="?metaButtonBarStyle"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/black_overlay"
+            android:orientation="vertical"
+           >
+
+        <rw.datasystems.mealorder.UI.CustomFontText
+            android:id="@+id/name"
+            android:padding="16dp"
+            android:text="Product Name"
+            android:textSize="26sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="normal|bold"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+    </RelativeLayout>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    >
+
+                    <rw.datasystems.mealorder.UI.CustomFontText
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:textSize="18sp"
+                        android:text="Details"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold" />
+
+                    <!--My dropdown rw.datasystems.mealorder.UI.CustomFontButton -->
+                    <RelativeLayout
+                        android:id="@+id/button"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="end"
+                        android:layout_alignParentRight="true"
+                        android:gravity="center"
+                        >
+                        <View
+                            android:layout_width="18dp"
+                            android:layout_height="18dp"
+                            android:background="@drawable/arrow_down_angle"
+                            android:layout_alignParentRight="false"
+                            android:layout_alignParentEnd="false" />
+
+
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+                <!--The layout below is my ExpandableLayout -->
+
+
+                <android.support.v4.widget.Space
+                    android:layout_width="match_parent"
+                    android:layout_height="8dp" />
+
+                <android.support.v7.widget.RecyclerView
+
+                    android:id="@+id/price_list"
+                    android:name="rw.datasystems.mealorder.ItemListFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    app:layoutManager="LinearLayoutManager"
+                    card_view:listitem="@layout/item_price_class" />
+
+
+                <android.support.v4.widget.Space
+                    android:layout_width="match_parent"
+                    android:layout_height="8dp" />
+
+
+                <LinearLayout
+                    android:id="@+id/expandableLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        >
+
+                        <rw.datasystems.mealorder.UI.CustomFontText
+
+                            android:textSize="18sp"
+                            android:text="Description"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <rw.datasystems.mealorder.UI.CustomFontText
+                            android:lines="3"
+                            android:text="Food decscription"
+                            android:textSize="16sp"
+                            android:id="@+id/description"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                    <android.support.v4.widget.Space
+                        android:layout_width="match_parent"
+                        android:layout_height="6dp" />
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        >
+
+                        <rw.datasystems.mealorder.UI.CustomFontText
+
+                            android:textSize="18sp"
+                            android:text="Food health details"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <rw.datasystems.mealorder.UI.CustomFontText
+                            android:lines="3"
+                            android:text="Food Health details"
+                            android:textSize="16sp"
+                            android:id="@+id/fooddetails"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <LinearLayout
+            android:layout_margin="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <rw.datasystems.mealorder.UI.CustomFontText
+                android:layout_width="200dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:textSize="18sp"
+                android:paddingLeft="6dp"
+                android:layout_height="wrap_content"
+                android:text="Size"
+
+                />
+            <rw.datasystems.mealorder.UI.CustomFontText
+                android:textSize="18sp"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Quantity"
+                android:layout_marginLeft="120dp"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <Spinner
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/classpinner"
+                android:layout_weight="1"
+                android:paddingLeft="3dp"
+                android:layout_gravity="center_vertical" />
+
+            <pl.polak.clicknumberpicker.ClickNumberPickerView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                app:integer_priority="true"
+                android:id="@+id/quantitypicker"
+                app:picker_corner_radius="10"
+                app:pickers_background_color="@color/colorPrimary"
+                app:swipe_enabled="false"
+                app:min_value="1"
+                app:value="1"
+                app:value_background_color="#5C6BC0"
+                android:layout_marginLeft="120dp"
+                app:value_text_color="@android:color/white"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_margin="16dp"
+            android:layout_marginBottom="48dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <CheckBox
+                android:text="Take away?"
+                android:layout_width="200dp"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content"
+                android:id="@+id/takeaway"
+                android:textSize="18sp"
+                android:layout_weight="1" />
+
+            <rw.datasystems.mealorder.UI.CustomFontButton
+                android:id="@+id/addtopplate"
+                android:layout_width="200dp"
+                android:text="NEXT"
+                android:layout_marginLeft="120dp"
+                android:textColor="@android:color/white"
+                style="@style/Base.Widget.AppCompat.Button.Colored"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
