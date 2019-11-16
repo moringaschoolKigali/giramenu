@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background" android:layout_gravity="fill_vertical|center_horizontal"
+        android:gravity="center_vertical|center_horizontal">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <rw.datasystems.mealorder.UI.CustomFontButton
+                android:id="@+id/addmore"
+                android:background="@drawable/primarybadge"
+                android:layout_width="400dp"
+                android:textSize="28sp"
+                android:textColor="@android:color/white"
+                android:layout_height="80dp"
+                android:text="ADD MORE ITEMS TO ORDER"
+                android:textStyle="bold"/>
+
+        <androidx.core.widget.Space
+                android:layout_width="24dp"
+                android:layout_height="match_parent"/>
+
+        <rw.datasystems.mealorder.UI.CustomFontButton
+                android:id="@+id/finish"
+                android:layout_height="80dp"
+                android:textSize="28sp"
+                android:background="@drawable/primarybadge"
+                android:textColor="@android:color/white"
+                android:layout_width="400dp"
+                android:text="FINISH ORDER"
+                android:textStyle="bold"/>
+
+        <androidx.core.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="24dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

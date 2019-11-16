@@ -1,0 +1,66 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="rw.datasystems.mealorder.Activitiy.ActivateActivity">
+
+
+    <ImageView
+        android:id="@+id/fullscreen_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:keepScreenOn="true"
+        android:scaleType="centerCrop"
+        android:background="@drawable/splash"
+        />
+    <LinearLayout
+
+        style="?metaButtonBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:padding="8dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:background="@color/black_overlay"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+
+        <rw.datasystems.mealorder.UI.CustomFontText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:text="Powered by Data Systems and Tigo"
+            />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        >
+        <LinearLayout
+            android:layout_marginBottom="64dp"
+            android:id="@+id/fullscreen_content_controls"
+            style="?metaButtonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@color/black_overlay"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+            <rw.datasystems.mealorder.UI.CustomFontButton
+                android:id="@+id/activate_rw.datasystems.mealorder.CustomFontButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:text="@string/activate_button" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</FrameLayout>

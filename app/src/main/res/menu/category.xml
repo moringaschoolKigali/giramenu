@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home2"
+        android:title="   Home"
+        app:showAsAction="always|withText"
+        android:icon="@drawable/ic_categories_black_24dp"
+
+        />
+    <item
+        android:id="@+id/disc"
+        android:title="   Disconnect"
+        app:showAsAction="always|withText"
+        android:icon="@drawable/ic_exit_to_app_black_24dp"
+
+        />
+    <item
+        android:id="@+id/language"
+        android:title="   French"
+        app:showAsAction="always|withText"
+        android:icon="@drawable/ic_language_black_24dp"
+
+        />
+
+</menu>

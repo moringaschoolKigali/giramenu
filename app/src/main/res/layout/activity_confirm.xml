@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:gravity="center_horizontal"
+              android:background="@drawable/background"
+              android:onClick="click"
+              android:layout_height="match_parent">
+
+    <androidx.core.widget.Space
+            android:onClick="click"
+            android:layout_width="match_parent"
+            android:layout_height="24dp" />
+
+    <LinearLayout
+            android:onClick="click"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+    >
+
+        <rw.datasystems.mealorder.UI.CustomFontText
+
+                android:id="@+id/ordercompleted"
+                android:textSize="38sp"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ORDER COMPLETED"
+                android:textColor="@android:color/white"
+                android:onClick="click"
+                android:layout_weight="1"
+                android:textStyle="bold"
+        />
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:onClick="click"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:paddingLeft="64dp"
+            android:paddingRight="64dp"
+            android:layout_marginTop="64dp">
+
+        <LinearLayout
+                android:onClick="click"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.4">
+
+            <ImageView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/kcclogo"
+                    android:onClick="click" />
+        </LinearLayout>
+
+        <LinearLayout
+                android:onClick="click"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_marginLeft="8dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5" android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal">
+
+            <rw.datasystems.mealorder.UI.CustomFontText
+                    android:id="@+id/thankyouforordering"
+                    android:onClick="click"
+                    android:text="Thank you for ordering"
+                    android:layout_width="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:textSize="30sp"
+                    android:textColor="@android:color/white"
+                    android:layout_height="wrap_content"/>
+
+            <rw.datasystems.mealorder.UI.CustomFontText
+
+                    android:onClick="click"
+                    android:id="@+id/pleaserememberyourordernumber"
+                    android:text="PLEASE REMEMBER YOUR ORDER NUMBER"
+                    android:lines="2"
+                    android:layout_width="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:textSize="24sp"
+                    android:textColor="@android:color/white"
+                    android:layout_height="wrap_content"/>
+
+            <androidx.core.widget.Space
+                    android:onClick="click"
+                    android:layout_width="wrap_content"
+                    android:layout_height="16dp"/>
+
+            <LinearLayout
+                    android:onClick="click"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="24dp"
+                    android:background="@drawable/create_card_edge"
+                    android:gravity="center_horizontal">
+
+                <rw.datasystems.mealorder.UI.CustomFontText
+                        android:id="@+id/yourordernumberis"
+                        android:onClick="click"
+                        android:textSize="32sp"
+                        android:textStyle="bold"
+                        android:text="YOUR ORDER NUMBER IS"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:textColor="@android:color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+
+                <rw.datasystems.mealorder.UI.CustomFontText
+                        android:id="@+id/code"
+                        android:onClick="click"
+                        android:textSize="48sp"
+                        android:textStyle="bold"
+                        android:text="Cuba 01"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="@color/colorPrimary"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <androidx.core.widget.Space
+                    android:onClick="click"
+                    android:layout_width="match_parent"
+                    android:layout_height="24dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <androidx.core.widget.Space
+            android:onClick="click"
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            />
+
+    <LinearLayout
+            android:onClick="click"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:paddingLeft="300dp"
+    >
+
+        <rw.datasystems.mealorder.UI.CustomFontText
+                android:id="@+id/poweredby"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="Powered by"
+                android:onClick="click"
+                android:textSize="24sp"
+                android:layout_marginBottom="16dp"
+                android:textColor="@android:color/white" />
+
+        <ImageView
+                android:onClick="click"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/tigologo" android:id="@+id/imageView3"
+                android:elevation="1dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
