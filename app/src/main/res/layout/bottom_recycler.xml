@@ -8,7 +8,7 @@
 
 
 
-    <!--<android.support.v4.widget.Space-->
+    <!--<androidx.legacy.widget.Space-->
     <!--android:layout_width="10dp"-->
     <!--android:layout_height="wrap_content" />-->
 

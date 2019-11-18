@@ -55,10 +55,10 @@
 
             <ImageView
 
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/kcclogo"
-                    android:onClick="click" />
+                android:layout_width="match_parent"
+                android:layout_height="118dp"
+                android:onClick="click"
+                app:srcCompat="@drawable/kcclogo" />
         </LinearLayout>
 
         <LinearLayout
@@ -168,11 +168,12 @@
                 android:textColor="@android:color/white" />
 
         <ImageView
-                android:onClick="click"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/tigologo" android:id="@+id/imageView3"
-                android:elevation="1dp"/>
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="1dp"
+            android:onClick="click"
+            app:srcCompat="@drawable/tigologo" />
 
     </LinearLayout>
 

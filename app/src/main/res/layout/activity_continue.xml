@@ -13,28 +13,28 @@
             android:layout_height="wrap_content">
 
         <rw.datasystems.mealorder.UI.CustomFontButton
-                android:id="@+id/addmore"
-                android:background="@drawable/primarybadge"
-                android:layout_width="400dp"
-                android:textSize="28sp"
-                android:textColor="@android:color/white"
-                android:layout_height="80dp"
-                android:text="ADD MORE ITEMS TO ORDER"
-                android:textStyle="bold"/>
+            android:id="@+id/addmore"
+            android:layout_width="148dp"
+            android:layout_height="85dp"
+            android:background="@drawable/primarybadge"
+            android:text="ADD MORE ITEMS TO ORDER"
+            android:textColor="@android:color/white"
+            android:textSize="13sp"
+            android:textStyle="bold" />
 
         <androidx.legacy.widget.Space
                 android:layout_width="24dp"
                 android:layout_height="match_parent"/>
 
         <rw.datasystems.mealorder.UI.CustomFontButton
-                android:id="@+id/finish"
-                android:layout_height="80dp"
-                android:textSize="28sp"
-                android:background="@drawable/primarybadge"
-                android:textColor="@android:color/white"
-                android:layout_width="400dp"
-                android:text="FINISH ORDER"
-                android:textStyle="bold"/>
+            android:id="@+id/finish"
+            android:layout_width="103dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/primarybadge"
+            android:text="FINISH ORDER"
+            android:textColor="@android:color/white"
+            android:textSize="13sp"
+            android:textStyle="bold" />
 
         <androidx.legacy.widget.Space
                 android:layout_width="match_parent"

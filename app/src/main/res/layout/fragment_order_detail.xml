@@ -31,41 +31,40 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:orientation="vertical"
-                android:background="@drawable/topbadge">
+                android:background="@drawable/topbadge"
+                android:orientation="vertical">
 
-                <android.support.v4.widget.Space
+                <androidx.legacy.widget.Space
                     android:layout_width="match_parent"
                     android:layout_height="8dp" />
 
                 <LinearLayout
-                    android:orientation="horizontal"
                     android:layout_width="match_parent"
-                    android:weightSum="1"
-                    android:layout_height="100dp">
+                    android:layout_height="100dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
 
-                    <android.support.v4.widget.Space
+                    <androidx.legacy.widget.Space
                         android:layout_width="16dp"
                         android:layout_height="wrap_content" />
 
                     <rw.datasystems.mealorder.UI.CustomFontText
                         android:id="@+id/yourordertext"
                         android:layout_width="0dp"
-                        android:layout_weight="0.6"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
+                        android:layout_weight="0.6"
                         android:text="Your order"
-                        android:textStyle="bold"
                         android:textColor="@android:color/white"
                         android:textSize="24sp"
-                        />
+                        android:textStyle="bold" />
 
                     <rw.datasystems.mealorder.UI.CustomFontText
                         android:id="@+id/remove"
-                        android:layout_weight="0.4"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
+                        android:layout_weight="0.4"
                         android:text=""
                         android:textColor="@color/colorPrimary"
                         android:textSize="24sp"
@@ -77,31 +76,32 @@
                     android:id="@+id/categorywelcome"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:visibility="gone"
                     android:layout_gravity="center_horizontal"
                     android:gravity="center_horizontal"
                     android:text="You've not chosen anything from the menu. Feel free to begin by choosing one of the categories to the left"
+                    android:textColor="@android:color/white"
                     android:textSize="20sp"
-                    android:textColor="@android:color/white" />
+                    android:visibility="gone" />
 
-                <android.support.v4.widget.Space
+                <androidx.legacy.widget.Space
                     android:layout_width="match_parent"
                     android:layout_height="16dp"
                     android:background="@android:color/white" />
 
-                <android.support.v7.widget.RecyclerView
+                <androidx.recyclerview.widget.RecyclerView
 
                     android:id="@+id/plate_item_list"
                     android:name="rw.datasystems.mealorder.OrderDetailFragment"
-                    android:layout_width="match_parent"
+                    android:layout_width="280dp"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="16dp"
                     android:layout_marginRight="16dp"
+
                     app:layoutManager="LinearLayoutManager"
                     tools:context="rw.datasystems.mealorder.Activitiy.ItemListActivity"
                     tools:listitem="@layout/item_plate_list_content" />
 
-                <android.support.v4.widget.Space
+                <androidx.legacy.widget.Space
                     android:layout_width="match_parent"
                     android:layout_height="16dp" />
 
@@ -163,14 +163,15 @@
         android:orientation="vertical">
 
         <rw.datasystems.mealorder.UI.CustomFontButton
-            android:textStyle="bold"
             android:id="@+id/confirm"
-            android:layout_width="400dp"
-            android:layout_height="60dp"
-            android:textSize="18dp"
+            android:layout_width="316dp"
+            android:layout_height="wrap_content"
             android:background="@drawable/badge"
+            android:layout_gravity="center"
             android:text="Finish order"
-            android:textColor="@android:color/white">
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+            android:textStyle="bold">
 
             <requestFocus />
 

@@ -110,7 +110,7 @@
                 <!--The layout below is my ExpandableLayout -->
 
 
-                <android.support.v4.widget.Space
+                <androidx.legacy.widget.Space
                     android:layout_width="match_parent"
                     android:layout_height="8dp" />
 
@@ -126,7 +126,7 @@
                     card_view:listitem="@layout/item_price_class" />
 
 
-                <android.support.v4.widget.Space
+                <androidx.legacy.widget.Space
                     android:layout_width="match_parent"
                     android:layout_height="8dp" />
 
@@ -163,7 +163,7 @@
 
                     </LinearLayout>
 
-                    <android.support.v4.widget.Space
+                    <androidx.legacy.widget.Space
                         android:layout_width="match_parent"
                         android:layout_height="6dp" />
 
