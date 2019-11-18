@@ -30,7 +30,7 @@
         android:background="@color/black_overlay"
         android:gravity="center"
         android:orientation="vertical"
-        android:padding="14dp"
+        android:padding="9dp"
         tools:ignore="UselessParent">
 
         <ImageView
