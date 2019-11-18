@@ -155,30 +155,32 @@ public class ActivateActivity extends AppCompatActivity {
         int uiOptions = View.SYSTEM_UI_FLAG_FULLSCREEN;
         decorView.setSystemUiVisibility(uiOptions);
 
-        SliderLayout mSlider = (SliderLayout) vv.findViewById(R.id.slider);
+        // Rachel, I changed this codes because i wanted the picture to slide on the whole page
 
-        TextSliderView textSliderView = new TextSliderView(this);
-        // initialize a SliderLayout
-
-            textSliderView
-                    .description("")
-                    .image(Constants.baseUrl + "/cover.home/1")
-                    .setScaleType(BaseSliderView.ScaleType.Fit)
-                    .error(R.drawable.slider1)
-                    .setOnSliderClickListener(null);
-
-            mSlider.addSlider(textSliderView);
-            textSliderView = new TextSliderView(this);
-            // initialize a SliderLayout
-            textSliderView
-                    .description("")
-                    .image(Constants.baseUrl + "/cover.home/2")
-                    .error(R.drawable.slide3)
-                    .setScaleType(BaseSliderView.ScaleType.Fit)
-                    .setOnSliderClickListener(null);
-
-            mSlider.addSlider(textSliderView);
-
+//        SliderLayout mSlider = (SliderLayout) vv.findViewById(R.id.slider);
+//
+//        TextSliderView textSliderView = new TextSliderView(this);
+//        // initialize a SliderLayout
+//
+//            textSliderView
+//                    .description("")
+//                    .image(Constants.baseUrl + "/cover.home/1")
+//                    .setScaleType(BaseSliderView.ScaleType.Fit)
+//                    .error(R.drawable.slider1)
+//                    .setOnSliderClickListener(null);
+//
+//            mSlider.addSlider(textSliderView);
+//            textSliderView = new TextSliderView(this);
+//            // initialize a SliderLayout
+//            textSliderView
+//                    .description("")
+//                    .image(Constants.baseUrl + "/cover.home/2")
+//                    .error(R.drawable.slide3)
+//                    .setScaleType(BaseSliderView.ScaleType.Fit)
+//                    .setOnSliderClickListener(null);
+//
+//            mSlider.addSlider(textSliderView);
+//
 
 
         view = getLayoutInflater().inflate(R.layout.activity_activate, null);
