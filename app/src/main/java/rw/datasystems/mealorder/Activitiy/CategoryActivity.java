@@ -15,6 +15,8 @@ import android.provider.Settings;
 import com.google.android.material.snackbar.Snackbar;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.view.GravityCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.appcompat.widget.Toolbar;
@@ -494,11 +496,11 @@ public class CategoryActivity extends AppCompatActivity {
 
         try {
 
-//            DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-//
-//            if (drawer.isDrawerOpen(GravityCompat.START)) {
-//                drawer.closeDrawer(GravityCompat.START);
-//            }
+            DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+
+            if (drawer.isDrawerOpen(GravityCompat.START)) {
+                drawer.closeDrawer(GravityCompat.START);
+            }
         } catch (Exception e) {
 
         }

@@ -22,17 +22,16 @@
 
         <rw.datasystems.mealorder.UI.CustomFontText
 
-                android:id="@+id/ordercompleted"
-                android:textSize="38sp"
-                android:gravity="center_horizontal"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="ORDER COMPLETED"
-                android:textColor="@android:color/white"
-                android:onClick="click"
-                android:layout_weight="1"
-                android:textStyle="bold"
-        />
+            android:id="@+id/ordercompleted"
+            android:layout_width="281dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:onClick="click"
+            android:text="ORDER COMPLETED"
+            android:textColor="@android:color/white"
+            android:textSize="38sp"
+            android:textStyle="bold" />
 
     </LinearLayout>
 
@@ -47,11 +46,11 @@
             android:layout_marginTop="64dp">
 
         <LinearLayout
-                android:onClick="click"
-                android:orientation="vertical"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="0.4">
+            android:layout_width="37dp"
+            android:layout_height="85dp"
+            android:layout_weight="0.4"
+            android:onClick="click"
+            android:orientation="vertical">
 
             <ImageView
 

@@ -88,8 +88,7 @@
         <activity
                 android:name=".Activitiy.ConfirmActivity">
         </activity>
-        <activity android:name=".Activitiy.ContinueActivity"
-            android:screenOrientation="portrait">
+        <activity android:name=".Activitiy.ContinueActivity">
 
         </activity>
     </application>

@@ -174,7 +174,7 @@ public class ActivateActivity extends AppCompatActivity {
                     .description("")
                     .image(Constants.baseUrl + "/cover.home/2")
                     .error(R.drawable.slide3)
-                    .setScaleType(BaseSliderView.ScaleType.CenterCrop)
+                    .setScaleType(BaseSliderView.ScaleType.Fit)
                     .setOnSliderClickListener(null);
 
             mSlider.addSlider(textSliderView);
