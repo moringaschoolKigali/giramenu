@@ -22,10 +22,10 @@
     <LinearLayout
 
         style="?metaButtonBarStyle"
-        android:layout_width="271dp"
-        android:layout_height="521dp"
+        android:layout_width="263dp"
+        android:layout_height="567dp"
         android:layout_gravity="right|top"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="40dp"
         android:layout_marginRight="16dp"
         android:background="@color/black_overlay"
         android:gravity="center"
@@ -66,14 +66,14 @@
 
     <rw.datasystems.mealorder.UI.CustomFontButton
         android:id="@+id/button"
-        android:layout_width="192dp"
-        android:layout_height="59dp"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
         android:layout_gravity="bottom|center_horizontal"
         android:layout_marginBottom="56dp"
         android:background="@drawable/order_button"
         android:text="Make an order"
         android:textColor="@android:color/white"
-        android:textSize="15sp"
+        android:textSize="13sp"
         android:textStyle="bold" />
 
 </FrameLayout>

@@ -1,0 +1,80 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="rw.datasystems.mealorder.Activitiy.ActivateActivity">
+
+    <com.daimajia.slider.library.SliderLayout
+        android:id="@+id/slider"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/slider1"
+        >
+
+        <LinearLayout
+
+            style="?metaButtonBarStyle"
+            android:layout_width="962dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right|top"
+            android:layout_marginRight="16dp"
+            android:background="@color/black_overlay"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="16dp"
+            tools:ignore="UselessParent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/offersbg" />
+
+            <androidx.legacy.widget.Space
+                android:layout_width="wrap_content"
+                android:layout_height="16dp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/offers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layoutManager="LinearLayoutManager"
+                tools:listitem="@layout/item_offer" />
+
+
+            <rw.datasystems.mealorder.UI.CustomFontText
+                android:id="@+id/offersguide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="120dp"
+                android:text="Click to see details"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+
+                />
+        </LinearLayout>
+    </com.daimajia.slider.library.SliderLayout>
+
+    <com.daimajia.slider.library.Indicators.PagerIndicator
+        android:id="@+id/custom_indicator2"
+        style="@style/AndroidImageSlider_Corner_Oval_Orange"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        />
+
+
+    <rw.datasystems.mealorder.UI.CustomFontButton
+        android:id="@+id/button"
+        android:layout_width="212dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/order_button"
+        android:text="Make an order"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+</FrameLayout>
