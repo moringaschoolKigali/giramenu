@@ -7,27 +7,27 @@
 
     <LinearLayout
 
-        android:layout_width="250dp"
-        android:layout_height="250dp"
-        android:orientation="vertical"
-        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="172dp"
         android:background="@drawable/create_card_edge"
-        android:gravity="center_horizontal">
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="8dp">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:orientation="vertical"
+            android:layout_height="50dp"
             android:background="@color/colorRow"
-            android:layout_height="50dp">
+            android:orientation="vertical">
 
             <rw.datasystems.mealorder.UI.AutoResizeTextView
                 android:id="@+id/name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Category 1"
                 android:layout_gravity="center_horizontal"
+                android:text="Category 1"
                 android:textColor="@color/colorPrimary"
-                android:textSize="24sp"/>
+                android:textSize="24sp" />
 
 
         </LinearLayout>
@@ -35,9 +35,9 @@
         <ImageView
             android:id="@+id/cover"
             android:layout_width="230dp"
-            android:src="@drawable/thumb"
+            android:layout_height="200dp"
             android:scaleType="centerCrop"
-            android:layout_height="200dp" />
+            android:src="@drawable/thumb" />
 
     </LinearLayout>
 

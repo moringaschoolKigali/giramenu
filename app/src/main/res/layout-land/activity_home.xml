@@ -14,10 +14,10 @@
         <LinearLayout
 
             style="?metaButtonBarStyle"
-            android:layout_width="match_parent"
-            android:layout_height="219dp"
-            android:layout_gravity="right|top"
-            android:layout_marginRight="16dp"
+            android:layout_width="447dp"
+            android:layout_height="208dp"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="20dp"
             android:background="@color/black_overlay"
             android:gravity="center"
             android:orientation="vertical"
@@ -25,8 +25,8 @@
             tools:ignore="UselessParent">
 
             <ImageView
-                android:layout_width="245dp"
-                android:layout_height="109dp"
+                android:layout_width="447dp"
+                android:layout_height="124dp"
                 android:src="@drawable/offersbg" />
 
             <androidx.legacy.widget.Space
@@ -46,7 +46,7 @@
                 android:layout_width="163dp"
                 android:layout_height="68dp"
                 android:layout_gravity="bottom"
-                android:layout_marginLeft="120dp"
+                android:layout_marginLeft="70dp"
                 android:layout_marginTop="16dp"
                 android:text="Click to see details"
                 android:textColor="@android:color/white"
@@ -70,7 +70,7 @@
         android:layout_width="212dp"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|center_horizontal"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="19dp"
         android:background="@drawable/order_button"
         android:text="Make an order"
         android:textColor="@android:color/white"

@@ -114,7 +114,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="8dp" />
 
-                <android.support.v7.widget.RecyclerView
+                <androidx.recyclerview.widget.RecyclerView
 
                     android:id="@+id/price_list"
                     android:name="rw.datasystems.mealorder.ItemListFragment"

@@ -21,20 +21,17 @@
         android:textSize="24sp" />
 
 
-
-
-
     <rw.datasystems.mealorder.UI.CustomFontButton
         android:id="@+id/addtoorder"
-        android:layout_width="420dp"
-        android:layout_height="60dp"
-        android:text="NEXT"
-        android:textSize="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:background="@drawable/badge"
         android:drawableRight="@drawable/ic_arrow_forward_black_24dp"
-        android:textColor="@android:color/white"
         android:drawableTint="@android:color/white"
-        android:textStyle="bold"/>
+        android:text="NEXT"
+        android:textColor="@android:color/white"
+        android:textSize="18dp"
+        android:textStyle="bold" />
         />
 
 </LinearLayout>

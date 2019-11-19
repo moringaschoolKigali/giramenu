@@ -9,6 +9,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.PixelFormat;
+import android.graphics.drawable.AnimationDrawable;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Build;
@@ -25,17 +26,21 @@ import rw.datasystems.mealorder.ServiceReceiver.MealOrderService;
 import rw.datasystems.mealorder.ServiceReceiver.ServiceTools;
 import rw.datasystems.mealorder.UI.CustomFontButton;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 import rw.datasystems.mealorder.UI.CustomFontText;
 import android.widget.Toast;
 
+import com.daimajia.slider.library.Animations.DescriptionAnimation;
 import com.daimajia.slider.library.SliderLayout;
 import com.daimajia.slider.library.SliderTypes.BaseSliderView;
 import com.daimajia.slider.library.SliderTypes.TextSliderView;
+import com.daimajia.slider.library.Tricks.ViewPagerEx;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 import retrofit2.Call;
@@ -53,7 +58,7 @@ import rw.datasystems.mealorder.models.Offers;
  *  and the table number.
  */
 
-public class ActivateActivity extends AppCompatActivity {
+public class ActivateActivity extends AppCompatActivity implements ViewPagerEx.OnPageChangeListener, BaseSliderView.OnSliderClickListener {
 
     /**
      * Keep track of the task to ensure we can cancel it if requested.
@@ -116,10 +121,17 @@ public class ActivateActivity extends AppCompatActivity {
         activityManager.moveTaskToFront(getTaskId(), 0);
     }
 
+    HashMap<String, Integer> HashMapForLocalRes;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_home);
+
+
+        SliderLayout sliderLayout = (SliderLayout)findViewById(R.id.slider);
+
+//        AddImageUrlFormLocalRes();
 
         if (getIntent().getExtras() != null && getIntent().getExtras().getBoolean("EXIT", false)) {
             finish();
@@ -155,20 +167,28 @@ public class ActivateActivity extends AppCompatActivity {
         int uiOptions = View.SYSTEM_UI_FLAG_FULLSCREEN;
         decorView.setSystemUiVisibility(uiOptions);
 
-        // Rachel, I changed this codes because i wanted the picture to slide on the whole page
+        // Rachel, I added this codes because i wanted the picture to slide on the whole page
+
+        AnimationDrawable animation = new AnimationDrawable();
+        animation.addFrame(getResources().getDrawable(R.drawable.slider1), 7000);
+        animation.addFrame(getResources().getDrawable(R.drawable.slide3), 7000);
+        animation.addFrame(getResources().getDrawable(R.drawable.slide4), 7000);
+        animation.setOneShot(false);
+
+        SliderLayout imageAnim = (SliderLayout) vv.findViewById(R.id.slider);
+        imageAnim.setBackgroundDrawable(animation);
+        animation.start();
+
 
 //        SliderLayout mSlider = (SliderLayout) vv.findViewById(R.id.slider);
-//
 //        TextSliderView textSliderView = new TextSliderView(this);
 //        // initialize a SliderLayout
-//
 //            textSliderView
 //                    .description("")
 //                    .image(Constants.baseUrl + "/cover.home/1")
-//                    .setScaleType(BaseSliderView.ScaleType.Fit)
+//                    .setScaleType(BaseSliderView.ScaleType.FitCenterCrop)
 //                    .error(R.drawable.slider1)
 //                    .setOnSliderClickListener(null);
-//
 //            mSlider.addSlider(textSliderView);
 //            textSliderView = new TextSliderView(this);
 //            // initialize a SliderLayout
@@ -178,9 +198,36 @@ public class ActivateActivity extends AppCompatActivity {
 //                    .error(R.drawable.slide3)
 //                    .setScaleType(BaseSliderView.ScaleType.Fit)
 //                    .setOnSliderClickListener(null);
-//
 //            mSlider.addSlider(textSliderView);
-//
+//        textSliderView
+//                .description("")
+//                .image(Constants.baseUrl + "/cover.home/3")
+//                .error(R.drawable.slide4)
+//                .setScaleType(BaseSliderView.ScaleType.Fit)
+//                .setOnSliderClickListener(null);
+//        mSlider.addSlider(textSliderView);
+
+
+//  Image slides - Rachel
+
+
+//        for(String name : HashMapForLocalRes.keySet()){
+//            TextSliderView textSliderView = new TextSliderView(ActivateActivity.this);
+//            textSliderView
+//                    .description(name)
+//                    .image(HashMapForLocalRes.get(name))
+//                    .setScaleType(BaseSliderView.ScaleType.Fit)
+//                   .setOnSliderClickListener(this);
+//            textSliderView.bundle(new Bundle());
+//            textSliderView.getBundle()
+//                    .putString("extra",name);
+//            sliderLayout.addSlider(textSliderView);
+//        }
+//        sliderLayout.setPresetTransformer(SliderLayout.Transformer.DepthPage);
+//        sliderLayout.setPresetIndicator(SliderLayout.PresetIndicators.Center_Bottom);
+//        sliderLayout.setCustomAnimation(new DescriptionAnimation());
+//        sliderLayout.setDuration(3000);
+//        sliderLayout.addOnPageChangeListener(ActivateActivity.this);
 
 
         view = getLayoutInflater().inflate(R.layout.activity_activate, null);
@@ -276,7 +323,7 @@ public class ActivateActivity extends AppCompatActivity {
             }
         });
 
-        
+
         mActivateButton = (CustomFontButton) view.findViewById(R.id.activate_button);
 
         mActivateButton.setOnClickListener(new View.OnClickListener() {
@@ -319,6 +366,16 @@ public class ActivateActivity extends AppCompatActivity {
 //        }
 
     }
+
+//    private void AddImageUrlFormLocalRes() {
+//        HashMapForLocalRes = new HashMap<String, Integer>();
+//
+//        HashMapForLocalRes.put("CupCake", R.drawable.slider1);
+//        HashMapForLocalRes.put("Donut", R.drawable.slide3);
+//        HashMapForLocalRes.put("Eclair", R.drawable.slide4);
+//        HashMapForLocalRes.put("Froyo", R.drawable.slide2);
+//        HashMapForLocalRes.put("GingerBread", R.drawable.slider1);
+//    }
 
     protected void disableStatusBar() {
 
@@ -444,6 +501,26 @@ public class ActivateActivity extends AppCompatActivity {
             mProgressView.setVisibility(show ? View.VISIBLE : View.GONE);
             mActivateFormView.setVisibility(show ? View.GONE : View.VISIBLE);
         }
+    }
+
+    @Override
+    public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
+
+    }
+
+    @Override
+    public void onPageSelected(int position) {
+
+    }
+
+    @Override
+    public void onPageScrollStateChanged(int state) {
+
+    }
+
+    @Override
+    public void onSliderClick(BaseSliderView slider) {
+
     }
 
     /**
