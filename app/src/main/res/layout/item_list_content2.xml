@@ -80,8 +80,7 @@
                 android:orientation="vertical"
                 android:padding="8dp"
                 android:layout_weight="0.4"
-                android:background="@color/colorRow"
-                >
+                android:background="@color/colorRow" >
 
                 <rw.datasystems.mealorder.UI.CustomFontButton
                     android:layout_width="match_parent"
@@ -90,16 +89,14 @@
                     android:layout_marginBottom="8dp"
                     android:id="@+id/catlabel"
                     android:textSize="10sp"
-                    android:textColor="@android:color/white"
-                    />
+                    android:textColor="@android:color/white" />
 
                 <ImageView
                     android:id="@+id/cover"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:src="@drawable/thumb"
-                    android:scaleType="centerCrop"
-                    />
+                    android:scaleType="centerCrop" />
             </LinearLayout>
 
         </LinearLayout>

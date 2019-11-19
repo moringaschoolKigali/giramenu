@@ -6,9 +6,9 @@
 
 
 
-    <!--<androidx.legacy.widget.Space-->
-    <!--android:layout_width="10dp"-->
-    <!--android:layout_height="wrap_content" />-->
+    <androidx.legacy.widget.Space
+    android:layout_width="10dp"
+    android:layout_height="wrap_content" />
 
     <rw.datasystems.mealorder.UI.CustomFontText
         android:textColor="@android:color/white"
@@ -23,11 +23,8 @@
         android:id="@+id/addtoorder"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/badge"
-        android:drawableRight="@drawable/ic_arrow_forward_black_24dp"
-        android:drawableTint="@android:color/white"
-        android:text="NEXT"
-        android:textColor="@android:color/white"
+        android:background="@drawable/ic_arrow_forward_black_24dp"
         android:textSize="18dp"
         android:textStyle="bold" />
+
 </LinearLayout>

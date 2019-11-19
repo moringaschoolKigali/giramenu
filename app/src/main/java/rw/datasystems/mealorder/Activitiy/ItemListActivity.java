@@ -91,7 +91,7 @@ public class ItemListActivity extends AppCompatActivity {
     private void hidePagination() {
 
         //findViewById(R.id.previous).setVisibility(View.INVISIBLE);
-        //findViewById(R.id.pagination).setVisibility(View.INVISIBLE);
+        findViewById(R.id.pagination).setVisibility(View.INVISIBLE);
         //findViewById(R.id.next).setVisibility(View.INVISIBLE);
 
         findViewById(R.id.addtoorder).setVisibility(View.INVISIBLE);

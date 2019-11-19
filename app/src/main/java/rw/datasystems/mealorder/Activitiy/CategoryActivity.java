@@ -386,7 +386,7 @@ public class CategoryActivity extends AppCompatActivity {
             //previous = (CustomFontButton) findViewById(R.id.previous);
             //next = (CustomFontButton) findViewById(R.id.next);
             addtorder = (CustomFontButton) findViewById(R.id.addtoorder);
-            pagination = (CustomFontText) findViewById(R.id.pagination);
+//            pagination = (CustomFontText) findViewById(R.id.pagination);
 
 //            previous.setOnClickListener(new View.OnClickListener() {
 //                @Override
