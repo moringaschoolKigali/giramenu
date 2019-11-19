@@ -445,8 +445,7 @@ public class CategoryActivity extends AppCompatActivity {
 
     }
 
-    private void setTheAdapter(CategoryAdapter adapter)
-    {
+    private void setTheAdapter(CategoryAdapter adapter) {
 //        ItemTouchHelper.Callback callback =
 //                new SimpleItemTouchHelperCallback(adapter);
 //        ItemTouchHelper touchHelper = new ItemTouchHelper(callback);
