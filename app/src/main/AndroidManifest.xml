@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="rw.datasystems.mealorder">
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR"/>
+    <uses-permission android:name="android.permission.REAL_GET_TASKS"/>
+
+    <permission
+            android:name="android.permission.STATUS_BAR_SERVICE"
+            android:protectionLevel="signature"/>
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.REORDER_TASKS"/>
+
+    <application
+            android:name=".MealorderApplication"
+            android:allowBackup="true"
+            android:hardwareAccelerated="false"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:largeHeap="true"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <meta-data
+                android:name="com.parse.SERVER_URL"
+                android:value="@string/parse_server_url"/>
+        <meta-data
+                android:name="com.parse.APPLICATION_ID"
+                android:value="@string/parse_app_id"/>
+        <meta-data
+                android:name="com.parse.CLIENT_KEY"
+                android:value="@string/parse_client_key"/>
+
+        <activity
+                android:name=".Activitiy.ActivateActivity"
+                android:label="@string/app_name"
+
+                android:theme="@style/FullscreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.HOME"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".Activitiy.CategoryActivity"
+                android:label="@string/title_activity_category"
+
+                android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+                android:name=".Activitiy.ExcludeListActivity"
+                android:label="@string/title_activity_category"
+
+                android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+                android:name=".Activitiy.ItemListActivity"
+                android:parentActivityName=".Activitiy.CategoryActivity"
+
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+                android:name=".Activitiy.AnythingElseListActivity"
+                android:parentActivityName=".Activitiy.CategoryActivity"
+                android:screenOrientation="landscape"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+                android:name=".Activitiy.ItemDetailActivity"
+                android:parentActivityName=".Activitiy.ItemListActivity"
+                android:screenOrientation="landscape"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+                android:name=".Activitiy.SideDishActivity"
+                android:parentActivityName=".Activitiy.ItemDetailActivity"
+                android:screenOrientation="landscape"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <service
+                android:name=".ServiceReceiver.KeepActiveService"
+                android:enabled="true"
+                android:exported="false"
+        />
+
+        <receiver android:name=".ServiceReceiver.BootReceiver">
+            <intent-filter >
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+
+        <activity
+                android:name=".Activitiy.ConfirmActivity"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".Activitiy.ContinueActivity"
+            android:screenOrientation="landscape">
+
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_categories_black_24dp"
+            android:title="Home"/>
+
+
+
+        <!--<item-->
+            <!--android:id="@+id/nav_change_order"-->
+            <!--android:icon="@drawable/ic_mode_edit_black_24dp"-->
+            <!--android:title="Change Order" />-->
+        <!--<item
+        android:id="@+id/nav_exit"
+        android:icon="@drawable/ic_exit_to_app_black_24dp"
+        android:title="Exit" />-->
+
+        <item
+            android:id="@+id/nav_disconnect"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="Disconnect"
+            />
+    </group>
+
+</menu>

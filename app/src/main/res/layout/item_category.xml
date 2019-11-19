@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="4dp"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:background="@drawable/create_card_edge"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="@color/colorRow"
+            android:layout_height="50dp">
+
+            <rw.datasystems.mealorder.UI.AutoResizeTextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:text="Category 1"
+                android:textColor="@color/colorPrimary"
+                android:textSize="24sp" />
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/cover"
+            android:layout_width="230dp"
+            android:src="@drawable/thumb"
+            android:scaleType="centerCrop"
+            android:layout_height="200dp" />
+
+    </LinearLayout>
+
+    <rw.datasystems.mealorder.UI.CustomFontText
+
+        android:id="@+id/count"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20 items in category"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"/>
+
+</LinearLayout>
