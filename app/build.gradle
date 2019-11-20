@@ -43,6 +43,8 @@ dependencies {
     implementation 'com.github.andremion:counterfab:1.0.1'
     implementation  'androidx.percentlayout:percentlayout:1.0.0'
     testImplementation 'junit:junit:4.12'
+
+
 //    compile fileTree(include: ['*.jar'], dir: 'libs')
 //    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
 //        exclude group: 'com.android.support', module: 'support-annotations'
