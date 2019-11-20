@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="1">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/item_list"
+        android:name="rw.datasystems.mealorder.ItemListFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_weight="0.7"
+        app:layoutManager="LinearLayoutManager"
+        tools:context="rw.datasystems.mealorder.Activitiy.ItemListActivity"
+        tools:listitem="@layout/item_list_content">
+
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <include
+        layout="@layout/fragment_order_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="702dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp" />
+
+</LinearLayout>
