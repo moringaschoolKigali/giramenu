@@ -28,24 +28,26 @@
 
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:weightSum="1"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
         <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:layout_width="0dp"
-            android:layout_weight="0.7" >
+            android:layout_weight="0.7"
+            android:orientation="vertical">
 
             <androidx.legacy.widget.Space
                 android:layout_width="wrap_content"
                 android:layout_height="8dp" />
 
             <LinearLayout
-                android:gravity="center_horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
 
 
                 <androidx.legacy.widget.Space
@@ -54,7 +56,7 @@
 
                 <rw.datasystems.mealorder.UI.CustomFontText
                     android:id="@+id/toordertext"
-                    android:layout_width="315dp"
+                    android:layout_width="346dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:text="Something to order?"
@@ -71,20 +73,32 @@
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/my_recycler_view"
+                android:layout_width="409dp"
+                android:layout_height="584dp"
                 android:scrollbars="vertical"
-                android:layout_width="match_parent"
-                android:layout_height="590dp"
                 tools:listitem="@layout/item_category"
 
-                >
+                ></androidx.recyclerview.widget.RecyclerView>
 
-            </androidx.recyclerview.widget.RecyclerView>
 
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <include
+                    layout="@layout/bottom_recycler"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginRight="15dp" />
+
+            </TableRow>
 
             <rw.datasystems.mealorder.UI.CustomFontButton
                 android:id="@+id/back"
-                android:layout_width="345dp"
-                android:layout_height="58dp"
+                android:layout_width="400dp"
+                android:layout_height="60dp"
                 android:background="@drawable/badge"
                 android:drawableLeft="@drawable/ic_arrow_back_black_24dp"
                 android:drawableTint="@android:color/white"
@@ -94,22 +108,9 @@
                 android:textStyle="bold"
                 android:visibility="invisible" />
 
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" >
-
-                <include
-                    layout="@layout/bottom_recycler"
-                    android:layout_width="match_parent"
-                    android:layout_marginRight="15dp"
-                    android:layout_marginLeft="8dp"
-                    android:layout_marginTop="2dp"
-                    android:layout_height="match_parent" />
-
-            </TableRow>
-
 
         </LinearLayout>
+
 
     </LinearLayout>
 
