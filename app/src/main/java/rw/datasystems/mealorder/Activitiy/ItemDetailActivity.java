@@ -99,19 +99,19 @@ public class ItemDetailActivity extends AppCompatActivity {
                     .commit();
         }
 
-        if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-
-            if (!Settings.canDrawOverlays(this)) {
-                Toast.makeText(this, "Please give my app this permission!", Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(Settings.ACTION_MANAGE_OVERLAY_PERMISSION, Uri.parse("package:" + getPackageName()));
-                startActivityForResult(intent, OVERLAY_PERMISSION_REQ_CODE);
-            } else {
-                disableStatusBar();
-            }
-        }
-        else {
-            disableStatusBar();
-        }
+//        if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+//
+//            if (!Settings.canDrawOverlays(this)) {
+//                Toast.makeText(this, "Please give my app this permission!", Toast.LENGTH_SHORT).show();
+//                Intent intent = new Intent(Settings.ACTION_MANAGE_OVERLAY_PERMISSION, Uri.parse("package:" + getPackageName()));
+//                startActivityForResult(intent, OVERLAY_PERMISSION_REQ_CODE);
+//            } else {
+//                disableStatusBar();
+//            }
+//        }
+//        else {
+//            disableStatusBar();
+//        }
 
         yourordertext = (CustomFontText) findViewById(R.id.yourordertext);
         totalpricetext = (CustomFontText) findViewById(R.id.totalpricetext);

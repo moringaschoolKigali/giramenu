@@ -95,18 +95,18 @@ public class ActivateActivity extends AppCompatActivity implements ViewPagerEx.O
             return true;
         }
         else
-            if(keyCode == KeyEvent.KEYCODE_VOLUME_DOWN) {
-                Constants.volumedown = Constants.volumedown + 1;
-                if (Constants.volumedown == 5)
-                {
-                    //TODO make this more backward compatible
-                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-                        stopService(new Intent(this, KeepActiveService.class).setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP));
-                        finishAndRemoveTask();
-                    }
+        if(keyCode == KeyEvent.KEYCODE_VOLUME_DOWN) {
+            Constants.volumedown = Constants.volumedown + 1;
+            if (Constants.volumedown == 5)
+            {
+                //TODO make this more backward compatible
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                    stopService(new Intent(this, KeepActiveService.class).setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP));
+                    finishAndRemoveTask();
                 }
-
             }
+
+        }
         return super.onKeyDown(keyCode, event);
     }
 
@@ -143,7 +143,7 @@ public class ActivateActivity extends AppCompatActivity implements ViewPagerEx.O
         Constants.volumedown = 0;
 
         if (!ServiceTools.isServiceRunning(ActivateActivity.this.getApplicationContext(), KeepActiveService.class)
-                ) {
+        ) {
             startService(new Intent(this, KeepActiveService.class));
         }
 
@@ -584,15 +584,15 @@ public class ActivateActivity extends AppCompatActivity implements ViewPagerEx.O
                 }
             }
 
-                try {
+            try {
 
-                    AuthTokenController controller = new AuthTokenController();
-                    controller.start();
-                }
-                catch (Exception e)
-                {
-                    return false;
-                }
+                AuthTokenController controller = new AuthTokenController();
+                controller.start();
+            }
+            catch (Exception e)
+            {
+                return false;
+            }
 
             return responseStatus;
         }
@@ -660,7 +660,7 @@ public class ActivateActivity extends AppCompatActivity implements ViewPagerEx.O
 
 
     }
-    
+
     public class OfferTask extends AsyncTask<Void, Void, Boolean> {
 
         private boolean responseStatus;
@@ -705,7 +705,7 @@ public class ActivateActivity extends AppCompatActivity implements ViewPagerEx.O
                         Constants.offersCount = offers.size();
                         offerTV.setAdapter(new OfferAdapter(offers));
                         if(Constants.offersCount > 0 )
-                        offerGuide.setText("Click to see details");
+                            offerGuide.setText("Click to see details");
 
                     }
                 }
@@ -744,4 +744,3 @@ public class ActivateActivity extends AppCompatActivity implements ViewPagerEx.O
     }
 
 }
-

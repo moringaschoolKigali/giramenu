@@ -54,7 +54,7 @@
 
                 <rw.datasystems.mealorder.UI.CustomFontText
                     android:id="@+id/toordertext"
-                    android:layout_width="378dp"
+                    android:layout_width="315dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:text="Something to order?"
@@ -111,15 +111,16 @@
 
         </LinearLayout>
 
+        <include
+            layout="@layout/fragment_order_detail"
+            android:layout_weight="0.3"
+            android:layout_width="0dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_height="703dp" />
 
     </LinearLayout>
 
-    <include
-        layout="@layout/fragment_order_detail"
-        android:layout_weight="0.3"
-        android:layout_width="0dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_height="703dp" />
+
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

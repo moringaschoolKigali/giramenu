@@ -145,7 +145,7 @@ public class AnythingElseListActivity extends AppCompatActivity {
                 }
         }
 
-         return true;
+        return true;
     }
 
     private void changeLanguage() {
@@ -292,7 +292,7 @@ public class AnythingElseListActivity extends AppCompatActivity {
             toolbar.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                   //onBackPressed();
+                    //onBackPressed();
                 }
             });
         }
@@ -301,7 +301,7 @@ public class AnythingElseListActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-               onBackPressed();
+                onBackPressed();
             }
         });
 
@@ -385,20 +385,20 @@ public class AnythingElseListActivity extends AppCompatActivity {
 
                     for(Items item : Constants.related.values())
                     {
-                            OrderItem oitem = new OrderItem();
-                            //Items item = Constants.related.get(i);
-                            oitem.current_price = Float.parseFloat(item.prices.get(0).getPrice());
-                            oitem.qnty = 1;
-                            oitem.item_name = item.name;
-                            oitem.order_item_id = item._id;
-                            oitem.itemclass = "";
-                            oitem.item = item;
+                        OrderItem oitem = new OrderItem();
+                        //Items item = Constants.related.get(i);
+                        oitem.current_price = Float.parseFloat(item.prices.get(0).getPrice());
+                        oitem.qnty = 1;
+                        oitem.item_name = item.name;
+                        oitem.order_item_id = item._id;
+                        oitem.itemclass = "";
+                        oitem.item = item;
 
-                            Constants.orderitems.add(oitem);
-                            startActivity(new Intent(getApplicationContext(), ContinueActivity.class).putExtra("OrderAdded", true));
-                            Constants.isCategories = true;
+                        Constants.orderitems.add(oitem);
+                        startActivity(new Intent(getApplicationContext(), ContinueActivity.class).putExtra("OrderAdded", true));
+                        Constants.isCategories = true;
 
-                        }
+                    }
 
                 }
             }
@@ -615,14 +615,14 @@ public class AnythingElseListActivity extends AppCompatActivity {
                     if(response.isSuccessful())
                     {
                         mStatus = true;
-                        
+
                         List<Related> ritems;
                         List<Items> items = new ArrayList<>();
                         List<Items> itemscopy = new ArrayList<>();
                         ritems = response.body();
 
                         for (Related related: ritems
-                                ) {
+                        ) {
 
                             ArrayList<Price> price = new ArrayList<Price>();
                             price.add(0, new Price("", String.valueOf(related.price)));
@@ -670,72 +670,72 @@ public class AnythingElseListActivity extends AppCompatActivity {
 
 
     public class DisconnectTask extends AsyncTask<Object, Object, Boolean> {
-    String username;
-    String password;
+        String username;
+        String password;
 
-    public DisconnectTask(String username, String password) {
-        this.username = username;
-        this.password = password;
-    }
+        public DisconnectTask(String username, String password) {
+            this.username = username;
+            this.password = password;
+        }
 
-    @Override
-    protected Boolean doInBackground(Object... params) {
+        @Override
+        protected Boolean doInBackground(Object... params) {
 
-        class AuthTokenController implements Callback<String>
-        {
-            public void start()
+            class AuthTokenController implements Callback<String>
             {
-                Gson gson = new GsonBuilder().setLenient().create();
-                GsonConverterFactory factory = GsonConverterFactory.create(gson);
-                Retrofit retrofit = new Retrofit.Builder().baseUrl(Constants.baseUrl)
-                        .addConverterFactory(factory).build();
-
-                MealOrderService mealOrderService = retrofit.create(MealOrderService.class);
-
-                Call<String> call = mealOrderService.disconnect(new Auth(username, password, Constants.table_num))    ;
-
-                call.enqueue(this);
-            }
-
-            @Override
-            public void onResponse(Call<String> call, Response<String> response) {
-
-                boolean responseStatus = response.isSuccessful();
-
-                if(responseStatus)
+                public void start()
                 {
-                    Constants.option = 0;
-                    Constants.lang = 1;
-                    Constants.token = "";
+                    Gson gson = new GsonBuilder().setLenient().create();
+                    GsonConverterFactory factory = GsonConverterFactory.create(gson);
+                    Retrofit retrofit = new Retrofit.Builder().baseUrl(Constants.baseUrl)
+                            .addConverterFactory(factory).build();
 
-                    Intent intent =  new Intent(getApplicationContext(), ActivateActivity.class);
-                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
-                    startActivity(intent);
-                    finish();
+                    MealOrderService mealOrderService = retrofit.create(MealOrderService.class);
+
+                    Call<String> call = mealOrderService.disconnect(new Auth(username, password, Constants.table_num))    ;
+
+                    call.enqueue(this);
                 }
 
+                @Override
+                public void onResponse(Call<String> call, Response<String> response) {
+
+                    boolean responseStatus = response.isSuccessful();
+
+                    if(responseStatus)
+                    {
+                        Constants.option = 0;
+                        Constants.lang = 1;
+                        Constants.token = "";
+
+                        Intent intent =  new Intent(getApplicationContext(), ActivateActivity.class);
+                        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+                        startActivity(intent);
+                        finish();
+                    }
+
+                }
+
+                @Override
+                public void onFailure(Call<String> call, Throwable t) {
+
+                    System.out.print("failure");
+
+                    return;
+
+                }
             }
 
-            @Override
-            public void onFailure(Call<String> call, Throwable t) {
-
-                System.out.print("failure");
-
-                return;
+            try {
+                AuthTokenController controller = new AuthTokenController();
+                controller.start();
 
             }
+            catch (Exception e)
+            {
+                return false;
+            }
+            return null;
         }
-
-        try {
-            AuthTokenController controller = new AuthTokenController();
-            controller.start();
-
-        }
-        catch (Exception e)
-        {
-            return false;
-        }
-        return null;
     }
-}
 }
