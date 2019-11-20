@@ -7,10 +7,10 @@
 
 
     <rw.datasystems.mealorder.UI.CustomFontButton
-        android:layout_width="350dp"
-        android:layout_height="55dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
         android:text="Glass"
-        android:textSize="20dp"
+        android:textSize="10dp"
         android:id="@+id/priceclassbtn"
         android:background="@drawable/primarybadge"
         android:textColor="@android:color/white"

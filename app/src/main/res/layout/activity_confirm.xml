@@ -23,7 +23,7 @@
         <rw.datasystems.mealorder.UI.CustomFontText
 
             android:id="@+id/ordercompleted"
-            android:layout_width="281dp"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center_horizontal"
@@ -63,7 +63,7 @@
         <LinearLayout
                 android:onClick="click"
                 android:orientation="vertical"
-                android:layout_width="0dp"
+                android:layout_width="match_parent"
                 android:layout_marginLeft="8dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.5" android:layout_gravity="center_horizontal"
@@ -107,7 +107,7 @@
 
                 <rw.datasystems.mealorder.UI.CustomFontText
                     android:id="@+id/yourordernumberis"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:gravity="center_horizontal"
@@ -168,8 +168,8 @@
 
         <ImageView
             android:id="@+id/imageView3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:elevation="1dp"
             android:onClick="click"
             app:srcCompat="@drawable/tigologo" />

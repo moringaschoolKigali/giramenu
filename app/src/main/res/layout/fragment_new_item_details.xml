@@ -43,16 +43,16 @@
 
         <LinearLayout
             android:orientation="vertical"
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_weight="0.4"
             android:layout_height="match_parent"
             android:gravity="center_vertical|center_horizontal"
             android:layout_marginTop="64dp"
-            android:paddingLeft="64dp">
+            android:paddingLeft="44dp">
 
 
             <LinearLayout
-                android:layout_width="250dp"
+                android:layout_width="match_parent"
                 android:layout_height="250dp"
                 android:orientation="vertical"
                 android:padding="8dp"
@@ -79,8 +79,8 @@
 
                 <ImageView
                     android:id="@+id/item_image"
-                    android:layout_width="230dp"
-                    android:src="@drawable/thumb"
+                    android:layout_width="100dp"
+                    android:src="@drawable/tigologo"
                     android:scaleType="centerCrop"
                     android:layout_height="200dp" />
 
