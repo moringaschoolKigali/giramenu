@@ -3,20 +3,13 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginRight="250dp"
     >
-
-
-
-    <!--<androidx.legacy.widget.Space-->
+    <!--<android.support.v4.widget.Space-->
     <!--android:layout_width="10dp"-->
     <!--android:layout_height="wrap_content" />-->
-
     <rw.datasystems.mealorder.UI.CustomFontText
-        android:textColor="@android:color/white"
-        android:layout_width="40dp"
-        android:layout_height="wrap_content"
         android:id="@+id/pagination"
+<<<<<<< Updated upstream
         android:textStyle="bold"
         android:textSize="24sp" />
 
@@ -24,9 +17,16 @@
 
 
 
+=======
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+>>>>>>> Stashed changes
     <rw.datasystems.mealorder.UI.CustomFontButton
         android:id="@+id/addtoorder"
-        android:layout_width="420dp"
+        android:layout_width="180dp"
         android:layout_height="60dp"
         android:text="NEXT"
         android:textSize="18dp"
@@ -34,7 +34,7 @@
         android:drawableRight="@drawable/ic_arrow_forward_black_24dp"
         android:textColor="@android:color/white"
         android:drawableTint="@android:color/white"
-        android:textStyle="bold"/>
-        />
-
+        android:textStyle="bold"
+        android:layout_marginLeft="4dp"/>
+    />
 </LinearLayout>

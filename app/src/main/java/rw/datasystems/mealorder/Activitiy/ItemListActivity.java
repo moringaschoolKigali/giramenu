@@ -179,7 +179,7 @@ public class ItemListActivity extends AppCompatActivity {
 
         hidePagination();
 
-        GridLayoutManager gridLayoutManager = new GridLayoutManager(this, 3);
+        GridLayoutManager gridLayoutManager = new GridLayoutManager(this, 2);
         recyclerView.setLayoutManager(gridLayoutManager);
 
         assert recyclerView != null;
@@ -216,7 +216,6 @@ public class ItemListActivity extends AppCompatActivity {
 
             sum += Constants.orderitems.get(i).current_price * Constants.orderitems.get(i).qnty;
         }
-
         totalprice.setText((String.format("%,.0f", sum) + " RWF"));
 
         RecyclerView recyclerView = (RecyclerView) findViewById(R.id.plate_item_list);

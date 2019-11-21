@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <androidx.coordinatorlayout.widget.CoordinatorLayout
     android:id="@+id/root"
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -28,14 +29,13 @@
         android:layout_width="match_parent"
         android:weightSum="1"
         android:layout_height="match_parent"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        android:orientation="vertical">
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
         <LinearLayout
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:layout_width="match_parent"
-
+            android:layout_width="0dp"
+            android:layout_weight="0.7"
             >
 
             <androidx.legacy.widget.Space
@@ -49,7 +49,7 @@
 
 
 
-                <Space
+                <androidx.legacy.widget.Space
                     android:layout_width="154dp"
                     android:layout_height="wrap_content" />
 
@@ -118,7 +118,6 @@
 
         <include
             layout="@layout/fragment_order_detail"
-            android:visibility="gone"
             android:layout_weight="0.3"
             android:layout_width="0dp"
             android:layout_marginRight="8dp"

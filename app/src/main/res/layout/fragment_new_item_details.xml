@@ -8,27 +8,27 @@
     android:orientation="vertical">
 
     <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-    >
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
 
 
 
 
         <androidx.legacy.widget.Space
-                android:layout_width="200dp"
-                android:layout_height="wrap_content"/>
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"/>
 
         <rw.datasystems.mealorder.UI.CustomFontText
-                android:id="@+id/choosetext"
-                android:layout_width="400dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:gravity="center_horizontal"
-                android:text="Something to order?"
-                android:textColor="@android:color/white"
-                android:textSize="30sp"
-                android:textStyle="bold"/>
+            android:id="@+id/choosetext"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:text="Something to order?"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
 
 
     </LinearLayout>

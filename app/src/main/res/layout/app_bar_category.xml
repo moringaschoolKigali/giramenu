@@ -43,8 +43,7 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical"
                     android:layout_width="match_parent"
-                    android:layout_weight="0.7"
-                    >
+                    android:layout_weight="0.7">
 
                     <androidx.legacy.widget.Space
                         android:layout_width="wrap_content"
@@ -93,7 +92,7 @@
 
                     <rw.datasystems.mealorder.UI.CustomFontButton
                         android:id="@+id/back"
-                        android:layout_width="400dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="60dp"
                         android:text="back"
                         android:textSize="18dp"
