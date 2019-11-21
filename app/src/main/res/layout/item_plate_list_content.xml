@@ -16,7 +16,7 @@
             android:id="@+id/card_view"
             android:orientation="vertical"
             android:stateListAnimator="@drawable/bottom_style_custom"
-            card_view:cardBackgroundColor="@color/accent_material_light">
+            card_view:cardBackgroundColor="#3D1818">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -38,8 +38,9 @@
                     android:text="name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:textColor="@color/colorPrimary"
+                    android:fontFamily="@font/aubrey"
+                    android:textSize="22sp"
+                    android:textColor="#fff"
 
                     />
 
@@ -48,6 +49,8 @@
                     android:id="@+id/priceclass"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/alegreya_sc"
+                    android:textStyle="bold"
                     android:textSize="20sp"
 
                     />
@@ -68,7 +71,7 @@
                         android:layout_width="36dp"
                         android:layout_height="36dp"
                         app:srcCompat="@drawable/ic_highlight_off_black_24dp"
-                        android:tint="@android:color/holo_red_light"
+                        android:tint="#DDA80A"
                         android:layout_gravity="center_horizontal" />
 
                 </LinearLayout>

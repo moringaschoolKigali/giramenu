@@ -54,8 +54,9 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="0.6"
+                        android:fontFamily="@font/alegreya_sc"
                         android:text="Your order"
-                        android:textColor="@android:color/white"
+                        android:textColor="#3D1818"
                         android:textSize="24sp"
                         android:textStyle="bold" />
 
