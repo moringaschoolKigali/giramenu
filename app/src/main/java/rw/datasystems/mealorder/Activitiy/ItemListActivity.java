@@ -179,7 +179,7 @@ public class ItemListActivity extends AppCompatActivity {
 
         hidePagination();
 
-        GridLayoutManager gridLayoutManager = new GridLayoutManager(this, 3);
+        GridLayoutManager gridLayoutManager = new GridLayoutManager(this, 2);
         recyclerView.setLayoutManager(gridLayoutManager);
 
         assert recyclerView != null;

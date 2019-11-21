@@ -53,6 +53,8 @@
                     <LinearLayout
                         android:gravity="center_horizontal"
                         android:layout_width="match_parent"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginBottom="40dp"
                         android:layout_height="wrap_content">
 
 
@@ -62,15 +64,15 @@
                             android:layout_height="wrap_content" />
 
                         <rw.datasystems.mealorder.UI.CustomFontText
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:textColor="@android:color/white"
-                            android:text="Something to order?"
-                            android:layout_gravity="center_horizontal"
-                            android:textSize="30sp"
-                            android:textStyle="bold"
                             android:id="@+id/toordertext"
-                            />
+                            android:layout_width="258dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:fontFamily="@font/aclonica"
+                            android:text="Something to order?"
+                            android:textColor="@android:color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
 
                         <!--            <androidx.legacy.widget.Space-->
                         <!--                android:layout_width="74dp"-->
