@@ -124,7 +124,7 @@
                 android:layout_height="128dp"
                 tools:listitem="@layout/item_new_price_class" />
 
-yuit7igyi
+
         </LinearLayout>
     </LinearLayout>
 
