@@ -18,199 +18,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e23de34-7653-40b4-bf68-35563aef1312" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/app.iml___jb_tmp___" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/app-release.apk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/androidTest/java/rw/datasystems/mealorder/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/assets/GOTHIC.TTF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/assets/GOTHICB.TTF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/Activitiy/ActivateActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/Activitiy/AnythingElseListActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/Activitiy/CategoryActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/Activitiy/ConfirmActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/Activitiy/ContinueActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/Activitiy/ExcludeListActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/Activitiy/ItemDetailActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/Activitiy/ItemListActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/Activitiy/SideDishActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/Fragment/ItemDetailFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/MealorderApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/ServiceReceiver/BootReceiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/ServiceReceiver/DisconnectTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/ServiceReceiver/KeepActiveService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/ServiceReceiver/MealOrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/ServiceReceiver/ServiceTools.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/UI/AutoResizeTextView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/UI/ClickNumber/ClickNumberPickerListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/UI/ClickNumber/ClickNumberPickerView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/UI/ClickNumber/NumberFormatUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/UI/ClickNumber/PickerClickType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/UI/CustomFontButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/UI/CustomFontText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/UI/CustomFontUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/UI/CustomViewGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/UI/FontCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/Util/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/adapters/AnythingElseItemAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/adapters/CategoryAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/adapters/ComponentAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/adapters/ItemAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/adapters/NewComponentAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/adapters/OrderItemAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/adapters/PriceAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/adapters/SideDishAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/models/Auth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/models/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/models/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/models/Items.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/models/LoadData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/models/Offers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/models/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/models/OrderItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/models/Price.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/models/Related.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/models/Sidedish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/anim/check_animation.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/color/red.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable-mdpi/ic_highlight_off_black_24dp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable-mdpi/splash.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable-mdpi/thumb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable-v21/animated_check.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable-v21/ic_menu_camera.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable-v21/ic_menu_gallery.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable-v21/ic_menu_manage.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable-v21/ic_menu_send.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable-v21/ic_menu_share.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable-v21/ic_menu_slideshow.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable-xhdpi/splash_r.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/addedbadge.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/arrow_down_angle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/background2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/badge.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/bottom_style_custom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/bottombadge.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/button_bg_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/check_mark.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/create_card_edge.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/ic_arrow_back_black_24dp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/ic_arrow_forward_black_24dp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/ic_categories_black_24dp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/ic_check_black_24dp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/ic_clear_black_180dp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/ic_clear_black_24dp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/ic_exit_to_app_black_24dp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/ic_expand_more_black_24dp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/ic_food.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/ic_language_black_24dp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/ic_mode_edit_black_24dp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/ic_more_24dp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/kcclogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/left_rectangle_corners.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/offersbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/order_button.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/picker_button_selector.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/primarybadge.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/rectangle_corners.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/removebadge.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/rounded_red_border.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/side_nav_bar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/slide2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/slide3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/slide4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/slider1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/tigologo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/topbadge.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/topbadgewhite.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout-sw600dp/activity_splash.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout-sw720dp/activity_splash.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout-w900dp/item_list.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/activity_activate.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/activity_category.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/activity_confirm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/activity_continue.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/activity_disconnect.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/activity_home.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/activity_item_detail.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/activity_item_list.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/activity_new_item_detail.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/activity_splash.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/app_bar_category.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/bottom_recycler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/dialog_component.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/dialog_confirm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/dialog_option.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/fragment_item_detail.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/fragment_new_item_details.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/fragment_order_detail.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/item_anythingelse.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/item_category.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/item_component.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/item_list.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/item_list_content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/item_list_content2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/item_new_component.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/item_new_price_class.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/item_offer.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/item_plate_list_content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/item_price_class.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/item_side.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/left_picker_view_default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/nav_header_category.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/right_picker_view_default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/spinner_item.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/view_click_numberpicker.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/menu/activity_category_drawer.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/menu/category.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/menu/menu_scrolling.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/values-v21/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/values-w820dp/dimens.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/values-xlarge/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/values/attrs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/values/dimens.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/values/drawables.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/values/integers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/test/java/rw/datasystems/mealorder/PublicClassTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/mealorder-master-34ca2cd462e9363ef95845ada540eaa22961d963.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giramenu-master/size.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_daimajia_slider_library_1_1_5_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_daimajia_slider_library_1_1_5_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_andremion_counterfab_1_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_andremion_counterfab_1_0_1_aar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/rw/datasystems/mealorder/Activitiy/ActivateActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/rw/datasystems/mealorder/Activitiy/ActivateActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/app_bar_category.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/app_bar_category.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/giramenu-master.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/rw/datasystems/mealorder/Activitiy/CategoryActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/rw/datasystems/mealorder/Activitiy/CategoryActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_category.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_category.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -252,40 +62,39 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_item_detail.xml">
-          <provider editor-type-id="android-designer2" />
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/rw/datasystems/mealorder/Activitiy/ActivateActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="19" column="48" lean-forward="true" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+            <state relative-caret-position="405">
+              <caret line="285" column="79" selection-start-line="285" selection-start-column="79" selection-end-line="285" selection-end-column="79" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml">
-          <provider editor-type-id="android-designer2" />
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/rw/datasystems/mealorder/Activitiy/CategoryActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="44" />
+            <state relative-caret-position="298">
+              <caret line="99" column="43" selection-start-line="99" selection-start-column="43" selection-end-line="99" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/rw/datasystems/mealorder/Activitiy/ActivateActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="184" column="2" selection-start-line="184" selection-start-column="2" selection-end-line="184" selection-end-column="2" />
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/dialog_confirm.xml">
+          <provider selected="true" editor-type-id="android-designer2" />
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/nav_header_category.xml">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_category.xml">
           <provider editor-type-id="android-designer2" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+            <state relative-caret-position="90">
+              <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -293,39 +102,6 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/splash.png">
           <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/splash_r.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/rw/datasystems/mealorder/Activitiy/CategoryActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-14406">
-              <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/rw/datasystems/mealorder/Activitiy/AnythingElseListActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_new_price_class.xml">
-          <provider editor-type-id="android-designer2" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="32" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="35" />
-            </state>
-          </provider>
         </entry>
       </file>
     </leaf>
@@ -369,11 +145,9 @@
         <option value="$USER_HOME$/Android/Sdk/sources/android-29/android/graphics/Typeface.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/rw/datasystems/mealorder/UI/CustomFontUtils.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_category.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_disconnect.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout-land/activity_home.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_activate.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/rw/datasystems/mealorder/Activitiy/CategoryActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/item_category.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout-land/activity_item_list.xml" />
@@ -407,11 +181,13 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_continue.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/primarybadge.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_new_item_details.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/app_bar_category.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_item_detail.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/rw/datasystems/mealorder/Activitiy/ActivateActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_category.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/rw/datasystems/mealorder/Activitiy/CategoryActivity.java" />
       </list>
     </option>
   </component>
@@ -428,7 +204,52 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="giramenu-Rachel1" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="giramenu-Rachel1" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="giramenu-Rachel1" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="mealorder" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="giramenu-Rachel1" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="mealorder" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="Activitiy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="giramenu-Rachel1" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+            <path>
+              <item name="giramenu-Rachel1" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="giramenu-Rachel1" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="values" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane" />
       <pane id="PackagesPane" />
     </panes>
@@ -583,12 +404,12 @@
       <window_info id="Build Variants" order="4" sideWeight="0.5016077" side_tool="true" weight="0.14333148" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Resources Explorer" order="6" weight="0.32982844" />
-      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.49839228" weight="0.374541" />
+      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.49839228" visible="true" weight="0.15495296" />
       <window_info id="Captures" order="8" side_tool="true" weight="0.24958494" />
       <window_info anchor="bottom" id="Logcat" order="0" weight="0.32937366" />
       <window_info anchor="bottom" id="TODO" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.18142548" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.3563715" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.17170626" />
       <window_info anchor="bottom" id="Version Control" order="4" />
       <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5011321" side_tool="true" weight="0.36135373" />
       <window_info anchor="bottom" id="Debug" order="6" />
@@ -612,19 +433,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="add sliding motion in images" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/create_card_edge.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_arrow_back_black_24dp.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_categories_black_24dp.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_check_black_24dp.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -662,34 +470,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_plate_list_content.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_list.xml">
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="39" column="38" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_order_detail.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="118" column="44" lean-forward="true" selection-start-line="118" selection-start-column="38" selection-end-line="118" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/bottombadge.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="36" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -765,28 +550,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="649">
-          <caret line="58" lean-forward="true" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/app_bar_category.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="52" column="58" selection-start-line="52" selection-start-column="58" selection-end-line="52" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/badge.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -833,29 +596,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_item_detail.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="19" column="48" lean-forward="true" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/rw/datasystems/mealorder/Activitiy/CategoryActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14406">
-          <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/rw/datasystems/mealorder/Activitiy/AnythingElseListActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -881,11 +621,91 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/splash.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_order_detail.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="118" column="40" lean-forward="true" selection-start-line="118" selection-start-column="40" selection-end-line="118" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/bottombadge.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/app_bar_category.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="118" column="47" selection-start-line="118" selection-start-column="47" selection-end-line="118" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_item_detail.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="19" column="48" lean-forward="true" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="61" column="45" selection-start-line="61" selection-start-column="45" selection-end-line="61" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_activate.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_plate_list_content.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/nav_header_category.xml">
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_category.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/rw/datasystems/mealorder/Activitiy/ActivateActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="285" column="79" selection-start-line="285" selection-start-column="79" selection-end-line="285" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -897,10 +717,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/rw/datasystems/mealorder/Activitiy/ActivateActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/rw/datasystems/mealorder/Activitiy/CategoryActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="184" column="2" selection-start-line="184" selection-start-column="2" selection-end-line="184" selection-end-column="2" />
+        <state relative-caret-position="298">
+          <caret line="99" column="43" selection-start-line="99" selection-start-column="43" selection-end-line="99" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/dialog_confirm.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
         </state>
       </provider>
     </entry>
