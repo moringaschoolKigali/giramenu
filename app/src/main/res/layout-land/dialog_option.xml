@@ -55,30 +55,30 @@
     </LinearLayout>
 
     <androidx.legacy.widget.Space
-        android:layout_width="match_parent"
-        android:layout_height="88dp" />
+        android:layout_width="701dp"
+        android:layout_height="wrap_content" />
 
     <LinearLayout
-        android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:weightSum="1"
+        android:layout_marginTop="64dp"
+        android:orientation="horizontal"
         android:paddingLeft="64dp"
         android:paddingRight="64dp"
-        android:layout_marginTop="64dp">
+        android:weightSum="1">
 
         <LinearLayout
-            android:orientation="vertical"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="0.4">
+            android:layout_weight="0.4"
+            android:orientation="vertical">
 
             <ImageView
+                android:id="@+id/imageView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/kcclogo"
-                android:id="@+id/imageView2"
-                android:horizontalSpacing="4dp"/>
+                android:horizontalSpacing="4dp"
+                app:srcCompat="@drawable/kcclogo" />
         </LinearLayout>
 
         <androidx.legacy.widget.Space
@@ -86,19 +86,19 @@
             android:layout_height="0dp" />
 
         <LinearLayout
-            android:orientation="vertical"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="0.5">
+            android:layout_weight="0.5"
+            android:orientation="vertical">
 
             <rw.datasystems.mealorder.UI.CustomFontButton
                 android:id="@+id/eatin"
-                android:background="@drawable/badge"
                 android:layout_width="wrap_content"
-                android:textSize="12sp"
-                android:textColor="@android:color/white"
                 android:layout_height="wrap_content"
-                android:text="DINE IN"/>
+                android:background="@drawable/badge"
+                android:text="DINE IN"
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
 
             <androidx.legacy.widget.Space
                 android:layout_width="match_parent"
@@ -106,42 +106,43 @@
 
             <rw.datasystems.mealorder.UI.CustomFontButton
                 android:id="@+id/takeaway"
-                android:layout_height="wrap_content"
-                android:textSize="12sp"
-                android:background="@drawable/badge"
-                android:textColor="@android:color/white"
                 android:layout_width="wrap_content"
-                android:text="TAKE AWAY"/>
+                android:layout_height="wrap_content"
+                android:background="@drawable/badge"
+                android:text="TAKE AWAY"
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
 
         </LinearLayout>
 
     </LinearLayout>
+
     <androidx.legacy.widget.Space
-            android:layout_width="match_parent"
-            android:layout_height="88dp"
-            android:id="@+id/space2"/>
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:id="@+id/space2"/>
     <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center_horizontal"
-            android:paddingLeft="150dp"
-    >
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:paddingLeft="150dp"
+        >
 
         <rw.datasystems.mealorder.UI.CustomFontText
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:inputType="textPersonName"
-                android:text="Powered by"
-                android:id="@+id/poweredby" android:textSize="24sp"
-                android:layout_marginBottom="16dp"
-                android:textColor="@android:color/white" />
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Powered by"
+            android:id="@+id/poweredby" android:textSize="24sp"
+            android:layout_marginBottom="16dp"
+            android:textColor="@android:color/white" />
 
         <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/tigologo" android:id="@+id/imageView3"
-                android:elevation="1dp"/>
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/tigologo" android:id="@+id/imageView3"
+            android:elevation="1dp"/>
     </LinearLayout>
 
 </LinearLayout>
