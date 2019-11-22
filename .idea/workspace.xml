@@ -18,10 +18,188 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e23de34-7653-40b4-bf68-35563aef1312" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/app.iml___jb_tmp___" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/app-release.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/androidTest/java/rw/datasystems/mealorder/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/assets/GOTHIC.TTF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/assets/GOTHICB.TTF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/Activitiy/ActivateActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/Activitiy/AnythingElseListActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/Activitiy/CategoryActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/Activitiy/ConfirmActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/Activitiy/ContinueActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/Activitiy/ExcludeListActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/Activitiy/ItemDetailActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/Activitiy/ItemListActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/Activitiy/SideDishActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/Fragment/ItemDetailFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/MealorderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/ServiceReceiver/BootReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/ServiceReceiver/DisconnectTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/ServiceReceiver/KeepActiveService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/ServiceReceiver/MealOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/ServiceReceiver/ServiceTools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/UI/AutoResizeTextView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/UI/ClickNumber/ClickNumberPickerListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/UI/ClickNumber/ClickNumberPickerView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/UI/ClickNumber/NumberFormatUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/UI/ClickNumber/PickerClickType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/UI/CustomFontButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/UI/CustomFontText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/UI/CustomFontUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/UI/CustomViewGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/UI/FontCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/Util/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/adapters/AnythingElseItemAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/adapters/CategoryAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/adapters/ComponentAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/adapters/ItemAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/adapters/NewComponentAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/adapters/OrderItemAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/adapters/PriceAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/adapters/SideDishAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/models/Auth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/models/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/models/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/models/Items.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/models/LoadData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/models/Offers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/models/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/models/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/models/Price.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/models/Related.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/java/rw/datasystems/mealorder/models/Sidedish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/anim/check_animation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/color/red.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable-mdpi/ic_highlight_off_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable-mdpi/splash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable-mdpi/thumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable-v21/animated_check.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable-v21/ic_menu_camera.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable-v21/ic_menu_gallery.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable-v21/ic_menu_manage.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable-v21/ic_menu_send.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable-v21/ic_menu_share.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable-v21/ic_menu_slideshow.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable-xhdpi/splash_r.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/addedbadge.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/arrow_down_angle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/background2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/badge.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/bottom_style_custom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/bottombadge.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/button_bg_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/check_mark.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/create_card_edge.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/ic_arrow_back_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/ic_arrow_forward_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/ic_categories_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/ic_check_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/ic_clear_black_180dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/ic_clear_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/ic_exit_to_app_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/ic_expand_more_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/ic_food.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/ic_language_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/ic_mode_edit_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/ic_more_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/kcclogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/left_rectangle_corners.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/offersbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/order_button.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/picker_button_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/primarybadge.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/rectangle_corners.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/removebadge.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/rounded_red_border.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/side_nav_bar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/slide2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/slide3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/slide4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/slider1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/tigologo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/topbadge.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/drawable/topbadgewhite.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout-sw600dp/activity_splash.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout-sw720dp/activity_splash.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout-w900dp/item_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/activity_activate.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/activity_category.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/activity_confirm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/activity_continue.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/activity_disconnect.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/activity_home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/activity_item_detail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/activity_item_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/activity_new_item_detail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/activity_splash.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/app_bar_category.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/bottom_recycler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/dialog_component.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/dialog_confirm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/dialog_option.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/fragment_item_detail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/fragment_new_item_details.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/fragment_order_detail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/item_anythingelse.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/item_category.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/item_component.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/item_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/item_list_content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/item_list_content2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/item_new_component.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/item_new_price_class.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/item_offer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/item_plate_list_content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/item_price_class.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/item_side.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/left_picker_view_default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/nav_header_category.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/right_picker_view_default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/spinner_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/layout/view_click_numberpicker.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/menu/activity_category_drawer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/menu/category.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/menu/menu_scrolling.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/values-v21/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/values-w820dp/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/values-xlarge/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/values/attrs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/values/drawables.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/values/integers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/app/src/test/java/rw/datasystems/mealorder/PublicClassTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/mealorder-master-34ca2cd462e9363ef95845ada540eaa22961d963.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giramenu-master/size.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
@@ -96,8 +274,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/rw/datasystems/mealorder/Activitiy/ActivateActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="925">
-              <caret line="194" column="66" selection-start-line="194" selection-start-column="66" selection-end-line="194" selection-end-column="66" />
+            <state relative-caret-position="280">
+              <caret line="184" column="2" selection-start-line="184" selection-start-column="2" selection-end-line="184" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -250,56 +428,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
-            <path>
-              <item name="giramenu-Rachel1" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-            </path>
-            <path>
-              <item name="giramenu-Rachel1" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="giramenu-Rachel1" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="mealorder" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="giramenu-Rachel1" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="mealorder" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="Activitiy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="giramenu-Rachel1" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-            </path>
-            <path>
-              <item name="giramenu-Rachel1" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="drawable" type="ddeffd01:AndroidResFolderTypeNode" />
-            </path>
-            <path>
-              <item name="giramenu-Rachel1" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
-            </path>
-            <path>
-              <item name="giramenu-Rachel1" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="AndroidView" />
       <pane id="ProjectPane" />
       <pane id="PackagesPane" />
     </panes>
@@ -454,18 +583,18 @@
       <window_info id="Build Variants" order="4" sideWeight="0.5016077" side_tool="true" weight="0.14333148" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Resources Explorer" order="6" weight="0.32982844" />
-      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.49839228" visible="true" weight="0.16934144" />
+      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.49839228" weight="0.374541" />
       <window_info id="Captures" order="8" side_tool="true" weight="0.24958494" />
       <window_info anchor="bottom" id="Logcat" order="0" weight="0.32937366" />
       <window_info anchor="bottom" id="TODO" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.18142548" />
-      <window_info anchor="bottom" id="Terminal" order="3" weight="0.28509718" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.3563715" />
       <window_info anchor="bottom" id="Version Control" order="4" />
       <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5011321" side_tool="true" weight="0.36135373" />
       <window_info anchor="bottom" id="Debug" order="6" />
       <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49886793" weight="0.032397408" />
       <window_info anchor="bottom" id="Android Profiler" order="8" />
-      <window_info active="true" anchor="bottom" id="Run" order="9" sideWeight="0.49886793" visible="true" weight="0.032397408" />
+      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.49886793" weight="0.032397408" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Gradle" order="1" weight="0.32963374" />
       <window_info anchor="right" id="Theme Preview" order="2" />
@@ -479,7 +608,8 @@
     <MESSAGE value="adjust sizes for the fitting the screen" />
     <MESSAGE value="style part Rachel" />
     <MESSAGE value="change colors" />
-    <option name="LAST_COMMIT_MESSAGE" value="change colors" />
+    <MESSAGE value="add sliding motion in images" />
+    <option name="LAST_COMMIT_MESSAGE" value="add sliding motion in images" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/create_card_edge.xml">
@@ -769,8 +899,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/rw/datasystems/mealorder/Activitiy/ActivateActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="925">
-          <caret line="194" column="66" selection-start-line="194" selection-start-column="66" selection-end-line="194" selection-end-column="66" />
+        <state relative-caret-position="280">
+          <caret line="184" column="2" selection-start-line="184" selection-start-column="2" selection-end-line="184" selection-end-column="2" />
         </state>
       </provider>
     </entry>
