@@ -9,6 +9,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.PixelFormat;
+import android.graphics.drawable.AnimationDrawable;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Build;
@@ -25,6 +26,7 @@ import rw.datasystems.mealorder.ServiceReceiver.MealOrderService;
 import rw.datasystems.mealorder.ServiceReceiver.ServiceTools;
 import rw.datasystems.mealorder.UI.CustomFontButton;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 import rw.datasystems.mealorder.UI.CustomFontText;
 import android.widget.Toast;
@@ -181,6 +183,18 @@ public class ActivateActivity extends AppCompatActivity {
 //
 //            mSlider.addSlider(textSliderView);
 //
+
+
+        AnimationDrawable animation = new AnimationDrawable();
+        animation.addFrame(getResources().getDrawable(R.drawable.slider1), 7000);
+        animation.addFrame(getResources().getDrawable(R.drawable.slide3), 7000);
+        animation.addFrame(getResources().getDrawable(R.drawable.slide4), 7000);
+        animation.addFrame(getResources().getDrawable(R.drawable.splash), 7000);
+        animation.setOneShot(false);
+
+        SliderLayout imageAnim = (SliderLayout) vv.findViewById(R.id.slider);
+        imageAnim.setBackgroundDrawable(animation);
+        animation.start();
 
 
         view = getLayoutInflater().inflate(R.layout.activity_activate, null);

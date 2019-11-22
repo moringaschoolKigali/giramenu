@@ -37,28 +37,26 @@
                 android:orientation="vertical">
 
                 <LinearLayout
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
                     android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:layout_weight="0.7"
-                    >
+                    android:orientation="vertical">
 
                     <androidx.legacy.widget.Space
                         android:layout_width="wrap_content"
                         android:layout_height="8dp" />
 
                     <LinearLayout
-                        android:gravity="center_horizontal"
                         android:layout_width="match_parent"
-                        android:layout_marginTop="80dp"
-                        android:layout_marginBottom="50dp"
-                        android:layout_height="wrap_content">
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="60dp"
+                        android:layout_marginBottom="40dp"
+                        android:gravity="center_horizontal">
 
 
-
-<!--                        <androidx.legacy.widget.Space-->
-<!--                            android:layout_width="54dp"-->
-<!--                            android:layout_height="wrap_content" />-->
+                        <!--                        <androidx.legacy.widget.Space-->
+                        <!--                            android:layout_width="54dp"-->
+                        <!--                            android:layout_height="wrap_content" />-->
 
                         <rw.datasystems.mealorder.UI.CustomFontText
                             android:id="@+id/toordertext"
@@ -68,7 +66,7 @@
                             android:fontFamily="@font/aclonica"
                             android:text="Something to order?"
                             android:textColor="#0D250B"
-                            android:textSize="20sp"
+                            android:textSize="26sp"
                             android:textStyle="bold" />
 
                         <!--            <androidx.legacy.widget.Space-->
@@ -80,18 +78,17 @@
 
                     <androidx.recyclerview.widget.RecyclerView
                         android:id="@+id/my_recycler_view"
-                        android:scrollbars="vertical"
                         android:layout_width="match_parent"
                         android:layout_height="590dp"
+                        android:scrollbars="vertical"
                         tools:listitem="@layout/item_category"
 
-                        >
-                    </androidx.recyclerview.widget.RecyclerView>
+                        ></androidx.recyclerview.widget.RecyclerView>
 
 
                     <TableRow
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent" >
+                        android:layout_height="match_parent">
 
                         <rw.datasystems.mealorder.UI.CustomFontButton
                             android:id="@+id/back"
@@ -109,8 +106,8 @@
                             layout="@layout/bottom_recycler"
                             android:layout_width="wrap_content"
 
-                            android:layout_marginTop="2dp"
-                            android:layout_height="wrap_content" />
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp" />
 
                     </TableRow>
 

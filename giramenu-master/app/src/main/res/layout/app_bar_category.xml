@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    android:id="@+id/root"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/background"
+    tools:context="rw.datasystems.mealorder.Activitiy.CategoryActivity"
+
+    android:layout_centerInParent="true">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="1"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_weight="0.7"
+        >
+
+        <android.support.v4.widget.Space
+            android:layout_width="wrap_content"
+            android:layout_height="8dp" />
+
+        <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <android.support.v4.widget.Space
+            android:layout_width="154dp"
+            android:layout_height="wrap_content" />
+
+        <rw.datasystems.mealorder.UI.CustomFontText
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="Something to order?"
+            android:layout_gravity="center_horizontal"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:id="@+id/toordertext"
+            />
+
+        <android.support.v4.widget.Space
+            android:layout_width="74dp"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/my_recycler_view"
+            android:scrollbars="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="590dp"
+            tools:listitem="@layout/item_category"
+
+            >
+        </android.support.v7.widget.RecyclerView>
+
+
+
+        <rw.datasystems.mealorder.UI.CustomFontButton
+            android:id="@+id/back"
+            android:layout_width="400dp"
+            android:layout_height="60dp"
+            android:text="back"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            android:drawableLeft="@drawable/ic_arrow_back_black_24dp"
+            android:drawableTint="@android:color/white"
+            android:textColor="@android:color/white"
+            android:background="@drawable/badge"
+            />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <include
+                layout="@layout/bottom_recycler"
+                android:layout_width="match_parent"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="2dp"
+                android:layout_height="match_parent" />
+
+        </TableRow>
+
+
+    </LinearLayout>
+
+
+        <include
+            layout="@layout/fragment_order_detail"
+            android:layout_weight="0.3"
+            android:layout_width="0dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_height="703dp" />
+
+    </LinearLayout>
+
+
+
+</android.support.design.widget.CoordinatorLayout>

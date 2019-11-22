@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.andremion:counterfab:1.0.1@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fb39277ca9b0efc93fa8995276df24a8/jetified-counterfab-1.0.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fb39277ca9b0efc93fa8995276df24a8/jetified-counterfab-1.0.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bd201f72964d56a87bb18a7d0915fc05/jetified-counterfab-1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bd201f72964d56a87bb18a7d0915fc05/jetified-counterfab-1.0.1/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.andremion/counterfab/1.0.1/8e02eaf1e0e5a33d062cb72ef9a1889f7765d4c5/counterfab-1.0.1-javadoc.jar!/" />

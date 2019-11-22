@@ -1,0 +1,67 @@
+<android.support.design.widget.CoordinatorLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:id="@+id/root"
+    xmlns:card_view="http://schemas.android.com/tools"
+    tools:context="rw.datasystems.mealorder.Activitiy.ItemDetailActivity"
+    tools:ignore="MergeRootFrame">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/background"
+        android:weightSum="1"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_weight="0.7"
+        >
+
+        <android.support.v4.widget.Space
+            android:layout_width="wrap_content"
+            android:layout_height="8dp" />
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/item_detail_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+        <include
+            layout="@layout/fragment_order_detail"
+            android:layout_weight="0.3"
+            android:layout_width="0dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_height="702dp" />
+
+
+</LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
