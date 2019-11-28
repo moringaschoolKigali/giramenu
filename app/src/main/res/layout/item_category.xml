@@ -24,10 +24,11 @@
                 android:id="@+id/name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Category 1"
                 android:layout_gravity="center_horizontal"
+                android:text="Category 1"
                 android:textColor="@color/colorPrimary"
-                android:textSize="24sp"/>
+                android:textSize="19sp"
+                android:typeface="serif" />
 
 
         </LinearLayout>
@@ -44,11 +45,12 @@
     <rw.datasystems.mealorder.UI.CustomFontText
 
         android:id="@+id/count"
-        android:layout_gravity="center_horizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
         android:text="20 items in category"
         android:textColor="@android:color/black"
-        android:textSize="20sp"/>
+        android:textSize="20sp"
+        android:typeface="serif" />
 
 </LinearLayout>

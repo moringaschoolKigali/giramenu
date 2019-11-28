@@ -42,8 +42,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Category 1"
+                android:fontFamily="@font/aclonica"
                 android:textColor="@color/colorPrimary"
-                android:textSize="24sp"/>
+                android:textSize="20sp"/>
 
 
             </LinearLayout>
@@ -66,11 +67,12 @@
 
             <rw.datasystems.mealorder.UI.CustomFontText
                 android:id="@+id/time"
-                android:layout_width="wrap_content"
+                android:layout_width="217dp"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/aclonica"
                 android:text="20 items in category"
-                android:textColor="@color/colorPrimary"
-                android:textSize="24sp"/>
+                android:textColor="@color/colorGreen"
+                android:textSize="20sp" />
 
         </LinearLayout>
 

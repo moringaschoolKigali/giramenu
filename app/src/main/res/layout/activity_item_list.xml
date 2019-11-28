@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    android:background="@drawable/background"
+    android:background="@color/colorBeige"
     tools:context="rw.datasystems.mealorder.Activitiy.CategoryActivity">
 
     <com.google.android.material.appbar.AppBarLayout
@@ -22,110 +22,116 @@
             app:popupTheme="@style/AppTheme.PopupOverlay" />
 
     </com.google.android.material.appbar.AppBarLayout>
-
-
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:weightSum="1"
         android:layout_height="match_parent"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        android:orientation="vertical">
+        >
+
 
         <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:layout_width="match_parent"
-
-            >
-
-            <androidx.legacy.widget.Space
-                android:layout_width="wrap_content"
-                android:layout_height="8dp" />
+            android:weightSum="1"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
             <LinearLayout
-                android:gravity="center_horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="match_parent"
+                android:orientation="vertical"
 
-
-
-                <Space
-                    android:layout_width="154dp"
-                    android:layout_height="wrap_content" />
-
-                <rw.datasystems.mealorder.UI.CustomFontText
-                    android:layout_width="400dp"
-                    android:layout_height="wrap_content"
-                    android:textColor="@android:color/white"
-                    android:text=""
-                    android:lines="1"
-                    android:layout_gravity="center_horizontal"
-                    android:gravity="center_horizontal"
-                    android:textSize="30sp"
-                    android:textStyle="bold"
-                    android:id="@+id/categoryname"
-                    android:visibility="invisible"
-                    />
-                <androidx.legacy.widget.Space
-                    android:layout_width="154dp"
-                    android:layout_height="wrap_content" />
-
-            </LinearLayout>
-
-            <androidx.legacy.widget.Space
-                android:layout_width="wrap_content"
-                android:layout_height="5dp" />
-
-            <androidx.recyclerview.widget.RecyclerView
-                tools:context="rw.datasystems.mealorder.Activitiy.ItemListActivity"
-                tools:listitem="@layout/item_list_content"
-                android:scrollbars="vertical"
-                android:layout_width="match_parent"
-                android:layout_height="590dp"
-                android:id="@+id/item_list"
                 >
 
-            </androidx.recyclerview.widget.RecyclerView>
+                <androidx.legacy.widget.Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="8dp" />
 
-            <LinearLayout
-                android:layout_height="wrap_content"
-                android:layout_width="fill_parent">
-
-
-                <rw.datasystems.mealorder.UI.CustomFontButton
-                    android:id="@+id/back"
-                    android:layout_width="400dp"
-                    android:layout_height="60dp"
-                    android:text="back"
-                    android:textSize="18dp"
-                    android:textStyle="bold"
-                    android:drawableLeft="@drawable/ic_arrow_back_black_24dp"
-                    android:drawableTint="@android:color/white"
-                    android:textColor="@android:color/white"
-                    android:background="@drawable/badge"
-                    />
-
-                <include
-                    layout="@layout/bottom_recycler"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"/>
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:gravity="center_horizontal">
+
+
+                    <Space
+                        android:layout_width="154dp"
+                        android:layout_height="wrap_content" />
+
+                    <rw.datasystems.mealorder.UI.CustomFontText
+                        android:id="@+id/categoryname"
+                        android:layout_width="400dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:lines="1"
+                        android:text=""
+                        android:textColor="@color/colorGreen"
+                        android:layout_marginBottom="10dp"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:typeface="serif"
+                        android:visibility="invisible" />
+
+                    <androidx.legacy.widget.Space
+                        android:layout_width="154dp"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <androidx.legacy.widget.Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="5dp" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/item_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="590dp"
+                    android:scrollbars="vertical"
+                    tools:context="rw.datasystems.mealorder.Activitiy.ItemListActivity"
+                    tools:listitem="@layout/item_list_content">
+
+                </androidx.recyclerview.widget.RecyclerView>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <rw.datasystems.mealorder.UI.CustomFontButton
+                        android:id="@+id/back"
+                        android:layout_width="152dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="125dp"
+                        android:background="@drawable/badge"
+                        android:drawableLeft="@drawable/ic_arrow_back_black_24dp"
+                        android:drawableTint="@android:color/white"
+                        android:text="back"
+                        android:textColor="@android:color/white"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <include
+                        layout="@layout/bottom_recycler"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+
             </LinearLayout>
 
 
+            <include
+                layout="@layout/fragment_order_detail"
+
+                android:layout_width="match_parent"
+                android:layout_height="706dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="0.3"
+                android:visibility="visible" />
 
         </LinearLayout>
-
-
-        <include
-            layout="@layout/fragment_order_detail"
-            android:visibility="gone"
-            android:layout_weight="0.3"
-            android:layout_width="0dp"
-            android:layout_marginRight="8dp"
-            android:layout_marginLeft="8dp"
-            android:layout_height="706dp" />
-
-    </LinearLayout>
+    </ScrollView>
 
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

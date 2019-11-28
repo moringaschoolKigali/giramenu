@@ -6,10 +6,12 @@
         <item>@font/aladin</item>
         <item>@font/alegreya_sc</item>
         <item>@font/alegreya_sc_bold</item>
+        <item>@font/allura</item>
         <item>@font/artifika</item>
         <item>@font/aubrey</item>
         <item>@font/audiowide</item>
         <item>@font/eater</item>
         <item>@font/wire_one</item>
+        <item>@font/yeseva_one</item>
     </array>
 </resources>

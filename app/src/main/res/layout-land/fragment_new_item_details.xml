@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="600dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#EEC588"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <!--        <ImageView-->
+        <!--            android:layout_width="100dp"-->
+        <!--            android:layout_height="100dp"-->
+        <!--            android:background="@drawable/am"/>-->
+
+        <!--        <ImageView-->
+        <!--            android:layout_width="100dp"-->
+        <!--            android:layout_height="100dp"-->
+        <!--            android:background="@drawable/waiter"/>-->
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="98dp"
+            android:background="@drawable/noodle"/>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        >
+        <!--        <androidx.legacy.widget.Space-->
+        <!--                android:layout_width="200dp"
+        android:layout_marginTop="80dp"-->
+        <!--              android:layout_height="wrap_content"/>-->
+
+
+        <rw.datasystems.mealorder.UI.CustomFontText
+            android:id="@+id/choosetext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/yeseva_one"
+            android:gravity="center_horizontal"
+            android:text="Something to order?"
+            android:textColor="#3D1818"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="64dp"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="220dp"
+                android:layout_height="219dp"
+                android:background="@drawable/create_card_edge"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/colorRow"
+                    android:orientation="vertical">
+
+                    <rw.datasystems.mealorder.UI.AutoResizeTextView
+                        android:id="@+id/name"
+                        android:layout_width="115dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="Category 1"
+                        android:textColor="@color/colorPrimary" />
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/item_image"
+                    android:layout_width="180dp"
+                    android:layout_height="133dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/tigologo" />
+
+            </LinearLayout>
+
+            <rw.datasystems.mealorder.UI.CustomFontText
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text=""
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="493dp"
+            android:layout_height="229dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="40dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <rw.datasystems.mealorder.UI.ClickNumber.ClickNumberPickerView
+                android:id="@+id/quantitypicker"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:visibility="gone"
+                app:integer_priority="true"
+                app:min_value="1"
+                app:picker_corner_radius="10"
+                app:pickers_background_color="@color/colorPrimary"
+                app:swipe_enabled="false"
+                app:value="1"
+                app:value_background_color="#5C6BC0"
+                app:value_text_color="@android:color/white" />
+
+
+            <androidx.recyclerview.widget.RecyclerView
+
+                android:id="@+id/size_list"
+                android:name="rw.datasystems.mealorder.ItemListFragment"
+                android:layout_width="313dp"
+                android:layout_height="128dp"
+                tools:listitem="@layout/item_new_price_class" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <rw.datasystems.mealorder.UI.CustomFontText
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/artifika"
+        android:lines="3"
+        android:text="Food description"
+        android:textColor="#204B22"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="290dp"
+        android:layout_height="229dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="32dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <rw.datasystems.mealorder.UI.CustomFontButton
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:background="@drawable/badge"
+            android:drawableLeft="@drawable/ic_arrow_back_black_24dp"
+            android:drawableTint="@android:color/white"
+            android:text="back"
+            android:textColor="@android:color/white"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+
+        <rw.datasystems.mealorder.UI.CustomFontButton
+            android:id="@+id/addtopplate"
+            style="@style/Base.Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/badge"
+            android:drawableRight="@drawable/ic_arrow_forward_black_24dp"
+            android:text="Next"
+            android:textColor="@android:color/white"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+
+        <rw.datasystems.mealorder.UI.CustomFontButton
+            android:id="@+id/confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/primarybadge"
+            android:text="Finish"
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:visibility="gone">
+
+            <requestFocus />
+
+        </rw.datasystems.mealorder.UI.CustomFontButton>
+
+    </LinearLayout>
+
+</LinearLayout>

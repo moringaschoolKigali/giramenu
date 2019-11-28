@@ -1,23 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        android:orientation="vertical"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEC588" >
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="fill_vertical|center_horizontal"
+        android:gravity="center_vertical|center_horizontal"
+        android:background="@drawable/ail" />
+
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/background" android:layout_gravity="fill_vertical|center_horizontal"
-        android:gravity="center_vertical|center_horizontal">
+        android:layout_gravity="fill_vertical|center_horizontal"
+        android:fontFamily="@font/allura"
+        android:layout_marginTop="39dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Thank you for ordering !!"
+        android:textSize="28sp" />
 
     <LinearLayout
             android:orientation="horizontal"
             android:layout_width="wrap_content"
+            android:layout_gravity="fill_vertical|center_horizontal"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginTop="130dp"
             android:layout_height="wrap_content">
+
+
 
         <rw.datasystems.mealorder.UI.CustomFontButton
             android:id="@+id/addmore"
-            android:layout_width="148dp"
+            android:layout_width="135dp"
             android:layout_height="85dp"
-            android:background="@drawable/primarybadge"
-            android:text="ADD MORE ITEMS TO ORDER"
+            android:background="@drawable/badge"
+            android:text="MORE ORDER"
             android:textColor="@android:color/white"
             android:textSize="13sp"
             android:textStyle="bold" />
@@ -28,9 +63,9 @@
 
         <rw.datasystems.mealorder.UI.CustomFontButton
             android:id="@+id/finish"
-            android:layout_width="103dp"
+            android:layout_width="138dp"
             android:layout_height="match_parent"
-            android:background="@drawable/primarybadge"
+            android:background="@drawable/badge"
             android:text="FINISH ORDER"
             android:textColor="@android:color/white"
             android:textSize="13sp"

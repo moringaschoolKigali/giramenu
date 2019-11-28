@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@android:color/transparent"
     android:gravity="center_horizontal"
     android:paddingTop="8dp"
     android:orientation="vertical"
@@ -16,7 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="0.8270"
-        android:background="@drawable/topbadgewhite"
+        android:background="@drawable/badge"
         android:clipToPadding="true"
         app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
 
@@ -34,14 +33,12 @@
                 android:background="@drawable/topbadge"
                 android:orientation="vertical">
 
-                <androidx.legacy.widget.Space
-                    android:layout_width="match_parent"
-                    android:layout_height="8dp" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="100dp"
+                    android:layout_height="wrap_content"
                     android:orientation="horizontal"
+                    android:layout_gravity="center_horizontal"
                     android:weightSum="1">
 
                     <androidx.legacy.widget.Space
@@ -50,12 +47,13 @@
 
                     <rw.datasystems.mealorder.UI.CustomFontText
                         android:id="@+id/yourordertext"
-                        android:layout_width="0dp"
+                        android:layout_width="78dp"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="0.6"
+                        android:fontFamily="@font/alegreya_sc"
                         android:text="Your order"
-                        android:textColor="@android:color/white"
+                        android:textColor="#3D1818"
                         android:textSize="24sp"
                         android:textStyle="bold" />
 
@@ -86,7 +84,7 @@
                 <androidx.legacy.widget.Space
                     android:layout_width="match_parent"
                     android:layout_height="16dp"
-                    android:background="@android:color/white" />
+                    android:background="@color/colorChocolate" />
 
                 <androidx.recyclerview.widget.RecyclerView
 

@@ -9,6 +9,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.PixelFormat;
+import android.graphics.drawable.AnimationDrawable;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Build;
@@ -25,6 +26,7 @@ import rw.datasystems.mealorder.ServiceReceiver.MealOrderService;
 import rw.datasystems.mealorder.ServiceReceiver.ServiceTools;
 import rw.datasystems.mealorder.UI.CustomFontButton;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 import rw.datasystems.mealorder.UI.CustomFontText;
 import android.widget.Toast;
@@ -90,18 +92,18 @@ public class ActivateActivity extends AppCompatActivity {
             return true;
         }
         else
-            if(keyCode == KeyEvent.KEYCODE_VOLUME_DOWN) {
-                Constants.volumedown = Constants.volumedown + 1;
-                if (Constants.volumedown == 5)
-                {
-                    //TODO make this more backward compatible
-                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-                        stopService(new Intent(this, KeepActiveService.class).setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP));
-                        finishAndRemoveTask();
-                    }
+        if(keyCode == KeyEvent.KEYCODE_VOLUME_DOWN) {
+            Constants.volumedown = Constants.volumedown + 1;
+            if (Constants.volumedown == 5)
+            {
+                //TODO make this more backward compatible
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                    stopService(new Intent(this, KeepActiveService.class).setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP));
+                    finishAndRemoveTask();
                 }
-
             }
+
+        }
         return super.onKeyDown(keyCode, event);
     }
 
@@ -131,7 +133,7 @@ public class ActivateActivity extends AppCompatActivity {
         Constants.volumedown = 0;
 
         if (!ServiceTools.isServiceRunning(ActivateActivity.this.getApplicationContext(), KeepActiveService.class)
-                ) {
+        ) {
             startService(new Intent(this, KeepActiveService.class));
         }
 
@@ -181,6 +183,18 @@ public class ActivateActivity extends AppCompatActivity {
 //
 //            mSlider.addSlider(textSliderView);
 //
+
+
+        AnimationDrawable animation = new AnimationDrawable();
+        animation.addFrame(getResources().getDrawable(R.drawable.slider1), 7000);
+        animation.addFrame(getResources().getDrawable(R.drawable.slide3), 7000);
+        animation.addFrame(getResources().getDrawable(R.drawable.slide4), 7000);
+        animation.addFrame(getResources().getDrawable(R.drawable.splash), 7000);
+        animation.setOneShot(false);
+
+        SliderLayout imageAnim = (SliderLayout) vv.findViewById(R.id.slider);
+        imageAnim.setBackgroundDrawable(animation);
+        animation.start();
 
 
         view = getLayoutInflater().inflate(R.layout.activity_activate, null);
@@ -276,7 +290,7 @@ public class ActivateActivity extends AppCompatActivity {
             }
         });
 
-        
+
         mActivateButton = (CustomFontButton) view.findViewById(R.id.activate_button);
 
         mActivateButton.setOnClickListener(new View.OnClickListener() {
@@ -507,15 +521,15 @@ public class ActivateActivity extends AppCompatActivity {
                 }
             }
 
-                try {
+            try {
 
-                    AuthTokenController controller = new AuthTokenController();
-                    controller.start();
-                }
-                catch (Exception e)
-                {
-                    return false;
-                }
+                AuthTokenController controller = new AuthTokenController();
+                controller.start();
+            }
+            catch (Exception e)
+            {
+                return false;
+            }
 
             return responseStatus;
         }
@@ -583,7 +597,7 @@ public class ActivateActivity extends AppCompatActivity {
 
 
     }
-    
+
     public class OfferTask extends AsyncTask<Void, Void, Boolean> {
 
         private boolean responseStatus;
@@ -628,7 +642,7 @@ public class ActivateActivity extends AppCompatActivity {
                         Constants.offersCount = offers.size();
                         offerTV.setAdapter(new OfferAdapter(offers));
                         if(Constants.offersCount > 0 )
-                        offerGuide.setText("Click to see details");
+                            offerGuide.setText("Click to see details");
 
                     }
                 }

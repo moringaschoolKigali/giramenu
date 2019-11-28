@@ -2,55 +2,53 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:gravity="center_horizontal"
+    android:layout_height="match_parent"
     android:background="@drawable/background"
-    android:layout_height="match_parent">
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
 
     <androidx.legacy.widget.Space
         android:layout_width="match_parent"
         android:layout_height="24dp" />
 
     <LinearLayout
-        android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="70dp"
-        android:paddingRight="64dp"
-        >
+        android:orientation="horizontal"
+        android:paddingRight="64dp">
 
         <rw.datasystems.mealorder.UI.CustomFontText
-            android:textSize="38sp"
-            android:gravity="center_horizontal"
+            android:id="@+id/option"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:paddingLeft="356dp"
             android:text="DINE IN?"
             android:textColor="@android:color/white"
-            android:id="@+id/option"
-            android:layout_weight="1"
-            android:paddingLeft="356dp" />
+            android:textSize="38sp" />
 
         <rw.datasystems.mealorder.UI.CustomFontButton
-            android:text="English"
-            android:layout_height="wrap_content"
             android:id="@+id/english"
-            android:textColor="@android:color/white"
-            android:background="@drawable/badge"
             android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/badge"
+            android:text="English"
+            android:textColor="@android:color/white"
             android:textStyle="bold" />
 
         <Space
             android:layout_width="16dp"
-            android:layout_height="wrap_content"
-            />
+            android:layout_height="wrap_content" />
 
         <rw.datasystems.mealorder.UI.CustomFontButton
-            android:text="French"
-            android:layout_height="wrap_content"
             android:id="@+id/french"
-            android:textColor="@android:color/white"
-            android:background="@drawable/badge"
             android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/badge"
+            android:text="French"
+            android:textColor="@android:color/white"
             android:textStyle="bold" />
     </LinearLayout>
 
@@ -59,26 +57,26 @@
         android:layout_height="88dp" />
 
     <LinearLayout
-        android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:weightSum="1"
+        android:layout_marginTop="64dp"
+        android:orientation="horizontal"
         android:paddingLeft="64dp"
         android:paddingRight="64dp"
-        android:layout_marginTop="64dp">
+        android:weightSum="1">
 
         <LinearLayout
-            android:orientation="vertical"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="0.4">
+            android:layout_weight="0.4"
+            android:orientation="vertical">
 
             <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/kcclogo"
                 android:id="@+id/imageView2"
-                android:horizontalSpacing="4dp"/>
+                android:layout_width="match_parent"
+                android:layout_height="71dp"
+                android:horizontalSpacing="4dp"
+                app:srcCompat="@drawable/kcclogo" />
         </LinearLayout>
 
         <androidx.legacy.widget.Space
@@ -86,19 +84,19 @@
             android:layout_height="0dp" />
 
         <LinearLayout
-            android:orientation="vertical"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="0.5">
+            android:layout_weight="0.5"
+            android:orientation="vertical">
 
             <rw.datasystems.mealorder.UI.CustomFontButton
                 android:id="@+id/eatin"
-                android:background="@drawable/primarybadge"
-                android:layout_width="300dp"
-                android:textSize="30sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/badge"
+                android:text="DINE IN"
                 android:textColor="@android:color/white"
-                android:layout_height="80dp"
-                android:text="DINE IN"/>
+                android:textSize="12sp" />
 
             <androidx.legacy.widget.Space
                 android:layout_width="match_parent"
@@ -106,42 +104,45 @@
 
             <rw.datasystems.mealorder.UI.CustomFontButton
                 android:id="@+id/takeaway"
-                android:layout_height="80dp"
-                android:textSize="30sp"
-                android:background="@drawable/primarybadge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/badge"
+                android:text="TAKE AWAY"
                 android:textColor="@android:color/white"
-                android:layout_width="300dp"
-                android:text="TAKE AWAY"/>
+                android:textSize="12sp" />
 
         </LinearLayout>
 
     </LinearLayout>
+
     <androidx.legacy.widget.Space
-            android:layout_width="match_parent"
-            android:layout_height="88dp"
-            android:id="@+id/space2"/>
+        android:id="@+id/space2"
+        android:layout_width="match_parent"
+        android:layout_height="88dp" />
+
     <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center_horizontal"
-            android:paddingLeft="150dp"
-    >
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingLeft="150dp">
 
         <rw.datasystems.mealorder.UI.CustomFontText
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:inputType="textPersonName"
-                android:text="Powered by"
-                android:id="@+id/poweredby" android:textSize="24sp"
-                android:layout_marginBottom="16dp"
-                android:textColor="@android:color/white" />
+            android:id="@+id/poweredby"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:inputType="textPersonName"
+            android:text="Powered by"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
 
         <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/tigologo" android:id="@+id/imageView3"
-                android:elevation="1dp"/>
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="1dp"
+            app:srcCompat="@drawable/tigologo" />
     </LinearLayout>
 
 </LinearLayout>

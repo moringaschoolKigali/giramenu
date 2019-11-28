@@ -66,7 +66,7 @@ public class CategoryActivity extends AppCompatActivity {
     public static CustomFontText pagination;
     private View view;
     private Dialog dialog;
-   // private DisconnectTask disconnectTask;
+    // private DisconnectTask disconnectTask;
     private CustomFontText totalpricetext, toordertext, remove;
     private CustomFontText yourordertext;
     private CustomFontButton btnconfirm;
@@ -235,58 +235,58 @@ public class CategoryActivity extends AppCompatActivity {
 //        }
 //        else {
 
-            setContentView(R.layout.activity_category);
-            v = findViewById(R.id.root);
+        setContentView(R.layout.activity_category);
+        v = findViewById(R.id.root);
 
-            hidePagination();
+        hidePagination();
 
-            getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
-            View decorView = getWindow().getDecorView();
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
+        View decorView = getWindow().getDecorView();
 
-            int uiOptions = View.SYSTEM_UI_FLAG_FULLSCREEN;
-            decorView.setSystemUiVisibility(uiOptions);
+        int uiOptions = View.SYSTEM_UI_FLAG_FULLSCREEN;
+        decorView.setSystemUiVisibility(uiOptions);
 
-            final boolean confirm = getIntent().getBooleanExtra(ItemDetailFragment.ARG_CONFIRM, false);
+        final boolean confirm = getIntent().getBooleanExtra(ItemDetailFragment.ARG_CONFIRM, false);
 
-            boolean orderadded = getIntent().getBooleanExtra("OrderAdded", false);
+        boolean orderadded = getIntent().getBooleanExtra("OrderAdded", false);
 
-            if (orderadded) {
-                Snackbar.make(findViewById(android.R.id.content), "Order Added", Snackbar.LENGTH_SHORT).show();
-            }
+        if (orderadded) {
+            Snackbar.make(findViewById(android.R.id.content), "Order Added", Snackbar.LENGTH_SHORT).show();
+        }
 
-            if (confirm) {
+        if (confirm) {
 
-                startActivity(new Intent(getApplicationContext(), ConfirmActivity.class));
-                finish();
+            startActivity(new Intent(getApplicationContext(), ConfirmActivity.class));
+            finish();
 
-            }
+        }
 
-            Constants c = new Constants();
-            if (Constants.orderitems == null || Constants.orderitems.size() == 0)
+        Constants c = new Constants();
+        if (Constants.orderitems == null || Constants.orderitems.size() == 0)
 
-                c.Init();
+            c.Init();
 
-            mRecyclerView = (RecyclerView) findViewById(R.id.my_recycler_view);
+        mRecyclerView = (RecyclerView) findViewById(R.id.my_recycler_view);
 
-            // use this setting to improve performance if you know that changes
-            // in content do not change the layout size of the RecyclerView
-            mRecyclerView.setHasFixedSize(true);
+        // use this setting to improve performance if you know that changes
+        // in content do not change the layout size of the RecyclerView
+        mRecyclerView.setHasFixedSize(true);
 
-            // use a grid layout manager
-            int sz = 3;
-            boolean tabletSize = getResources().getBoolean(R.bool.isTablet);
+        // use a grid layout manager
+        int sz = 3;
+        boolean tabletSize = getResources().getBoolean(R.bool.isTablet);
 
-            if (tabletSize) {
-                // do something
-            } else {
-                sz = 2;
-            }
+        if (tabletSize) {
+            // do something
+        } else {
+            sz = 2;
+        }
 
-            GridLayoutManager gridLayoutManager = new GridLayoutManager(this, sz);
-            mRecyclerView.setLayoutManager(gridLayoutManager);
+        GridLayoutManager gridLayoutManager = new GridLayoutManager(this, sz);
+        mRecyclerView.setLayoutManager(gridLayoutManager);
 
-            if (Constants.categories.size() > 0) {
-                CategoryAdapter mAdapter = new CategoryAdapter(CategoryActivity.this, Constants.categories);
+        if (Constants.categories.size() > 0) {
+            CategoryAdapter mAdapter = new CategoryAdapter(CategoryActivity.this, Constants.categories);
 //                if (Constants.categories.size() == 2){
 //                  mRecyclerView.setAdapter(mAdapter);
 //                  mRecyclerView.setPadding(50,400,200,10);
@@ -294,17 +294,17 @@ public class CategoryActivity extends AppCompatActivity {
 //                    return 0;
 ////                       mRecyclerView.setAdapter(mAdapter);
 //                  }
-                mRecyclerView.setAdapter(mAdapter);
+            mRecyclerView.setAdapter(mAdapter);
 
 
-                //setTheAdapter(mAdapter);
+            //setTheAdapter(mAdapter);
 //                ItemTouchHelper.Callback callback =
 //                        new SimpleItemTouchHelperCallback(mAdapter);
 //                ItemTouchHelper touchHelper = new ItemTouchHelper(callback);
 //                touchHelper.attachToRecyclerView(mRecyclerView);
-            }
-            Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-            setSupportActionBar(toolbar);
+        }
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
 
 //            DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
 //            ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -315,78 +315,78 @@ public class CategoryActivity extends AppCompatActivity {
 //            NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
 //            navigationView.setNavigationItemSelectedListener(this);
 
-            categorywelcome = (CustomFontText) findViewById(R.id.categorywelcome);
+        categorywelcome = (CustomFontText) findViewById(R.id.categorywelcome);
 
-            if (Constants.orderitems.size() > 0)
-                categorywelcome.setText("Here's a look at your order");
-            else
-                categorywelcome.setText("You've not chosen anything from the menu. Feel free to begin by choosing one of the categories to the left");
+        if (Constants.orderitems.size() > 0)
+            categorywelcome.setText("Here's a look at your order");
+        else
+            categorywelcome.setText("You've not chosen anything from the menu. Feel free to begin by choosing one of the categories to the left");
 
 
-            totalprice = (CustomFontText) findViewById(R.id.totalprice);
-            btnconfirm = (CustomFontButton) findViewById(R.id.confirm);
+        totalprice = (CustomFontText) findViewById(R.id.totalprice);
+        btnconfirm = (CustomFontButton) findViewById(R.id.confirm);
 
-            Float sum = Float.valueOf(0);
-            for (int i = 0; i < Constants.orderitems.size(); i++) {
+        Float sum = Float.valueOf(0);
+        for (int i = 0; i < Constants.orderitems.size(); i++) {
 
-                sum += Constants.orderitems.get(i).current_price * Constants.orderitems.get(i).qnty;
+            sum += Constants.orderitems.get(i).current_price * Constants.orderitems.get(i).qnty;
+        }
+
+        btnconfirm.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                if (Constants.orderitems == null || Constants.orderitems.size() == 0) {
+
+                    Snackbar.make(mRecyclerView, "Nothing to confirm! please add an item", Snackbar.LENGTH_SHORT).show();
+
+                    return;
+                }
+
+                confirmTask confirm1 = new confirmTask(
+                        Constants.orderitems);
+                confirm1.execute((Void) null);
+
             }
+        });
 
-            btnconfirm.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
+        totalprice.setText((String.format("%,.0f", sum) + " RWF"));
 
-                    if (Constants.orderitems == null || Constants.orderitems.size() == 0) {
+        final RecyclerView recyclerView = (RecyclerView) findViewById(R.id.plate_item_list);
+        assert recyclerView != null;
 
-                        Snackbar.make(mRecyclerView, "Nothing to confirm! please add an item", Snackbar.LENGTH_SHORT).show();
-
-                        return;
-                    }
-
-                    confirmTask confirm1 = new confirmTask(
-                            Constants.orderitems);
-                    confirm1.execute((Void) null);
-
-                }
-            });
-
-            totalprice.setText((String.format("%,.0f", sum) + " RWF"));
-
-            final RecyclerView recyclerView = (RecyclerView) findViewById(R.id.plate_item_list);
-            assert recyclerView != null;
-
-            if (Constants.orderitems.size() > 0)
-                recyclerView.setAdapter(new OrderItemAdapter(CategoryActivity.this, false, Constants.orderitems));
+        if (Constants.orderitems.size() > 0)
+            recyclerView.setAdapter(new OrderItemAdapter(CategoryActivity.this, false, Constants.orderitems));
 
 
-            toordertext = (CustomFontText) findViewById(R.id.toordertext);
-            yourordertext = (CustomFontText) findViewById(R.id.yourordertext);
-            remove = (CustomFontText) findViewById(R.id.remove);
-            totalpricetext = (CustomFontText) findViewById(R.id.totalpricetext);
+        toordertext = (CustomFontText) findViewById(R.id.toordertext);
+        yourordertext = (CustomFontText) findViewById(R.id.yourordertext);
+        remove = (CustomFontText) findViewById(R.id.remove);
+        totalpricetext = (CustomFontText) findViewById(R.id.totalpricetext);
 
 
-            back = (CustomFontButton) findViewById(R.id.back);
-            back.setVisibility(Constants.isCategories ? View.INVISIBLE : View.VISIBLE);
+        back = (CustomFontButton) findViewById(R.id.back);
+        back.setVisibility(Constants.isCategories ? View.INVISIBLE : View.VISIBLE);
 
-            back.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
 
-                    back.setVisibility(View.INVISIBLE);
-                    CategoryAdapter mAdapter = new CategoryAdapter(CategoryActivity.this, Constants.categories);
-                    mRecyclerView.setAdapter(mAdapter);
-                    setTheAdapter(mAdapter);
+                back.setVisibility(View.INVISIBLE);
+                CategoryAdapter mAdapter = new CategoryAdapter(CategoryActivity.this, Constants.categories);
+                mRecyclerView.setAdapter(mAdapter);
+                setTheAdapter(mAdapter);
 
-                    Constants.isCategories = true;
+                Constants.isCategories = true;
 
-                }
-            });
+            }
+        });
 
 
-            //previous = (CustomFontButton) findViewById(R.id.previous);
-            //next = (CustomFontButton) findViewById(R.id.next);
-            addtorder = (CustomFontButton) findViewById(R.id.addtoorder);
-            pagination = (CustomFontText) findViewById(R.id.pagination);
+        //previous = (CustomFontButton) findViewById(R.id.previous);
+        //next = (CustomFontButton) findViewById(R.id.next);
+        addtorder = (CustomFontButton) findViewById(R.id.addtoorder);
+        pagination = (CustomFontText) findViewById(R.id.pagination);
 
 //            previous.setOnClickListener(new View.OnClickListener() {
 //                @Override
@@ -434,12 +434,12 @@ public class CategoryActivity extends AppCompatActivity {
 //                }
 //            });
 
-            addtorder.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    Snackbar.make(mRecyclerView, "please complete an order first", Snackbar.LENGTH_LONG).show();
-                }
-            });
+        addtorder.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Snackbar.make(mRecyclerView, "please complete an order first", Snackbar.LENGTH_LONG).show();
+            }
+        });
 
 //        }
 
@@ -965,9 +965,9 @@ public class CategoryActivity extends AppCompatActivity {
         protected Boolean doInBackground(Object... params) {
 
             class Controller implements Callback<String>
-                {
+            {
 
-                    public void start()
+                public void start()
                 {
                     List<OrderItem> mItems2 = new ArrayList<>();
 
@@ -999,7 +999,7 @@ public class CategoryActivity extends AppCompatActivity {
                 @Override
                 public void onResponse(Call<String> call, Response<String> response) {
 
-                   // progressDialog.dismiss();
+                    // progressDialog.dismiss();
                     if(response.isSuccessful())
                     {
                         mStatus = true;
@@ -1026,7 +1026,7 @@ public class CategoryActivity extends AppCompatActivity {
 
                 @Override
                 public void onFailure(Call<String> call, Throwable t) {
-                //    progressDialog.dismiss();
+                    //    progressDialog.dismiss();
                     mStatus = false;
                 }
             }
