@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="733dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginTop="64dp"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:background="@drawable/create_card_edge"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/holo_blue_dark"
+                    android:orientation="vertical">
+
+                    <rw.datasystems.mealorder.UI.AutoResizeTextView
+                        android:id="@+id/name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="Category 1"
+                        android:textColor="@android:color/white" />
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/item_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/tigologo" />
+
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+
+                android:id="@+id/size_list"
+                android:name="rw.datasystems.mealorder.ItemListFragment"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                tools:listitem="@layout/item_new_price_class" />
+
+            <rw.datasystems.mealorder.UI.CustomFontText
+                android:id="@+id/price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text=""
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+            <rw.datasystems.mealorder.UI.CustomFontText
+                android:id="@+id/description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/artifika"
+                android:lines="3"
+                android:text="Food description"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <rw.datasystems.mealorder.UI.ClickNumber.ClickNumberPickerView
+                android:id="@+id/quantitypicker"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:visibility="visible"
+                app:integer_priority="true"
+                app:min_value="1"
+                app:picker_corner_radius="10"
+                app:pickers_background_color="@color/colorPrimary"
+                app:swipe_enabled="false"
+                app:value="1"
+                app:value_background_color="#5C6BC0"
+                app:value_text_color="@android:color/white" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <rw.datasystems.mealorder.UI.CustomFontButton
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/badge"
+            android:drawableLeft="@drawable/ic_arrow_back_black_24dp"
+            android:drawableTint="@android:color/white"
+            android:text="back"
+            android:textColor="@android:color/white"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+
+        <rw.datasystems.mealorder.UI.CustomFontButton
+            android:id="@+id/addtopplate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/badge"
+            android:drawableRight="@drawable/ic_arrow_forward_black_24dp"
+            android:text="Next"
+            android:visibility="invisible"
+            android:textColor="@android:color/white"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+
+        <rw.datasystems.mealorder.UI.CustomFontButton
+            android:id="@+id/confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/badge2"
+            android:text="Finish"
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:visibility="gone">
+
+            <requestFocus />
+
+        </rw.datasystems.mealorder.UI.CustomFontButton>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#EEC588"
+    android:layout_gravity="fill_vertical|center_horizontal"
+        android:gravity="center_vertical|center_horizontal">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <rw.datasystems.mealorder.UI.CustomFontButton
+            android:id="@+id/addmore"
+            android:layout_width="135dp"
+            android:layout_height="85dp"
+            android:background="#3D1818"
+            android:text="MORE ORDER"
+            android:textColor="@android:color/white"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <androidx.legacy.widget.Space
+                android:layout_width="24dp"
+                android:layout_height="match_parent"/>
+
+        <rw.datasystems.mealorder.UI.CustomFontButton
+            android:id="@+id/finish"
+            android:layout_width="138dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/primarybadge"
+            android:text="FINISH ORDER"
+            android:textColor="@android:color/white"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <androidx.legacy.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="24dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

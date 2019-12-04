@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@android:color/white"
+    android:layout_height="match_parent">
+
+    <androidx.legacy.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="24dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:paddingRight="64dp"
+        >
+
+        <rw.datasystems.mealorder.UI.CustomFontText
+            android:textSize="38sp"
+            android:gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DINE IN?"
+            android:textColor="@android:color/white"
+            android:id="@+id/option"
+            android:layout_weight="1"
+            android:paddingLeft="356dp" />
+
+        <rw.datasystems.mealorder.UI.CustomFontButton
+            android:text="English"
+            android:layout_height="wrap_content"
+            android:id="@+id/english"
+            android:textColor="@android:color/white"
+            android:background="@drawable/badge"
+            android:layout_width="150dp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="16dp"
+            android:layout_height="wrap_content"
+            />
+
+        <rw.datasystems.mealorder.UI.CustomFontButton
+            android:text="French"
+            android:layout_height="wrap_content"
+            android:id="@+id/french"
+            android:textColor="@android:color/white"
+            android:background="@drawable/badge"
+            android:layout_width="150dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <androidx.legacy.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="88dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:paddingLeft="64dp"
+        android:paddingRight="64dp"
+        android:layout_marginTop="64dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/kcclogo"
+                android:id="@+id/imageView2"
+                android:horizontalSpacing="4dp"/>
+        </LinearLayout>
+
+        <androidx.legacy.widget.Space
+            android:layout_width="15dp"
+            android:layout_height="0dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5">
+
+            <rw.datasystems.mealorder.UI.CustomFontButton
+                android:id="@+id/eatin"
+                android:background="@drawable/badge"
+                android:layout_width="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@android:color/white"
+                android:layout_height="wrap_content"
+                android:text="DINE IN"/>
+
+            <androidx.legacy.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="54dp" />
+
+            <rw.datasystems.mealorder.UI.CustomFontButton
+                android:id="@+id/takeaway"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:background="@drawable/badge"
+                android:textColor="@android:color/white"
+                android:layout_width="wrap_content"
+                android:text="TAKE AWAY"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <androidx.legacy.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:id="@+id/space2"/>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:paddingLeft="150dp"
+    >
+
+        <rw.datasystems.mealorder.UI.CustomFontText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="Powered by"
+                android:id="@+id/poweredby" android:textSize="24sp"
+                android:layout_marginBottom="16dp"
+                android:textColor="@android:color/white" />
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/tigologo" android:id="@+id/imageView3"
+                android:elevation="1dp"/>
+    </LinearLayout>
+
+</LinearLayout>
