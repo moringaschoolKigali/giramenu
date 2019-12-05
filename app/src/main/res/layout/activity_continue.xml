@@ -4,8 +4,8 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#EEC588"
-    android:layout_gravity="fill_vertical|center_horizontal"
+        android:background="@android:color/white"
+        android:layout_gravity="fill_vertical|center_horizontal"
         android:gravity="center_vertical|center_horizontal">
 
     <LinearLayout
@@ -17,7 +17,7 @@
             android:id="@+id/addmore"
             android:layout_width="135dp"
             android:layout_height="85dp"
-            android:background="#3D1818"
+            android:background="@android:color/holo_blue_dark"
             android:text="MORE ORDER"
             android:textColor="@android:color/white"
             android:textSize="13sp"
@@ -31,7 +31,7 @@
             android:id="@+id/finish"
             android:layout_width="138dp"
             android:layout_height="match_parent"
-            android:background="@drawable/primarybadge"
+            android:background="@android:color/holo_green_dark"
             android:text="FINISH ORDER"
             android:textColor="@android:color/white"
             android:textSize="13sp"

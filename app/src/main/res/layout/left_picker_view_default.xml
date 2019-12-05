@@ -6,5 +6,6 @@
     android:background="@drawable/picker_button_selector"
     android:gravity="center"
     android:text="-"
-    android:textColor="@android:color/black"
+    android:textColor="@android:color/white"
+    android:textStyle="bold"
     android:textSize="36sp"/>
