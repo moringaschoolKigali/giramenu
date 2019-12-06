@@ -11,25 +11,11 @@
     android:layout_marginBottom="32dp"
     android:layout_height="wrap_content">
 
-    <rw.datasystems.mealorder.UI.CustomFontText
-        android:id="@+id/choosetext"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:fontFamily="@font/yeseva_one"
-        android:gravity="center_horizontal"
-        android:layout_marginTop="10dp"
-        android:text="Exclude"
-        android:textColor="@android:color/black"
-        android:textSize="30sp"
-        android:textStyle="bold" />
-
     <LinearLayout
         android:id="@+id/wrapper"
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/choosetext"
         android:layout_marginTop="20dp">
 
         <LinearLayout

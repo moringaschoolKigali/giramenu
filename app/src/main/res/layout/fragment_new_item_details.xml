@@ -37,9 +37,10 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:gravity="center"
             android:padding="10dp"
             android:layout_marginTop="64dp"
-            android:orientation="horizontal">
+            android:orientation="vertical">
 
 
             <LinearLayout
@@ -101,7 +102,7 @@
                 android:fontFamily="@font/artifika"
                 android:lines="3"
                 android:text="Food description"
-                android:textColor="@android:color/white"
+                android:textColor="@android:color/black"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
@@ -112,7 +113,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:gravity="center"
-            android:padding="10dp"
+            android:padding="5dp"
             android:orientation="vertical">
 
             <rw.datasystems.mealorder.UI.ClickNumber.ClickNumberPickerView
@@ -136,9 +137,10 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:orientation="horizontal"
-        android:weightSum="1">
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
 
         <rw.datasystems.mealorder.UI.CustomFontButton
             android:id="@+id/back"
@@ -148,18 +150,21 @@
             android:drawableLeft="@drawable/ic_arrow_back_black_24dp"
             android:drawableTint="@android:color/white"
             android:text="back"
+            android:layout_marginRight="20dp"
             android:textColor="@android:color/white"
             android:textSize="13dp"
             android:textStyle="bold" />
+
+
 
         <rw.datasystems.mealorder.UI.CustomFontButton
             android:id="@+id/addtopplate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="40dp"
             android:background="@drawable/badge"
             android:drawableRight="@drawable/ic_arrow_forward_black_24dp"
             android:text="Next"
+            android:layout_marginLeft="20dp"
             android:visibility="invisible"
             android:textColor="@android:color/white"
             android:textSize="13dp"
