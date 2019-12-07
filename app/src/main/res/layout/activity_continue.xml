@@ -4,7 +4,7 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/wheat"
+        android:background="@drawable/background"
         android:layout_gravity="fill_vertical|center_horizontal"
         android:gravity="center_vertical|center_horizontal">
 
@@ -31,7 +31,7 @@
             android:id="@+id/finish"
             android:layout_width="138dp"
             android:layout_height="match_parent"
-            android:background="@android:color/holo_green_dark"
+            android:background="#85001F"
             android:text="FINISH ORDER"
             android:textColor="@android:color/white"
             android:textSize="13sp"

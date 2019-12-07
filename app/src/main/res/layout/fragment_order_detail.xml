@@ -6,7 +6,7 @@
     android:layout_height="wrap_content"
     android:gravity="center_horizontal"
     android:paddingTop="8dp"
-    android:background="@drawable/wheat"
+    android:background="@drawable/background"
     android:orientation="vertical"
     android:weightSum="1">
 

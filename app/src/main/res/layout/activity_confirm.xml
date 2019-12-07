@@ -5,15 +5,13 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:gravity="center_horizontal"
-
     android:background="@drawable/background"
     android:onClick="click"
     android:layout_height="match_parent">
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@drawable/wheat">
+        android:layout_height="match_parent">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"

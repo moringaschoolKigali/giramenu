@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:padding="@dimen/activity_horizontal_margin"
     android:gravity="center"
-    android:background="@drawable/wheat"
+    android:background="@drawable/background"
     android:layout_height="match_parent">
 
     <ImageView

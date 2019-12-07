@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    android:background="@drawable/wheat"
+    android:background="@drawable/background"
     tools:context="rw.datasystems.mealorder.Activitiy.CategoryActivity"
     android:layout_centerInParent="true">
 
