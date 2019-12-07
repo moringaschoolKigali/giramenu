@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:padding="@dimen/activity_horizontal_margin"
     android:gravity="center"
+    android:background="@drawable/wheat"
     android:layout_height="match_parent">
 
     <ImageView
@@ -19,6 +20,7 @@
         android:layout_width="wrap_content"
         android:gravity="center_horizontal"
         android:textSize="24sp"
+        android:textColor="@android:color/white"
         android:layout_height="wrap_content" />
 
     <androidx.legacy.widget.Space
@@ -30,6 +32,7 @@
         android:id="@+id/code"
         android:textSize="28sp"
         android:textStyle="bold"
+        android:textColor="@android:color/white"
         android:text="Cuba 01"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />

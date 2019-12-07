@@ -69,7 +69,7 @@
         android:layout_height="61dp"
         android:layout_gravity="bottom|center_horizontal"
         android:layout_marginBottom="56dp"
-        android:background="@drawable/order_button"
+        android:background="@drawable/create_card_edge"
         android:text="Make an order"
         android:textColor="@android:color/white"
         android:textSize="16sp"

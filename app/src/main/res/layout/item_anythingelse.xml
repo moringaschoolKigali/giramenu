@@ -27,7 +27,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:orientation="vertical"
-                android:background="@android:color/holo_blue_dark"
+                android:background="#630118"
                 android:layout_height="50dp">
 
                 <rw.datasystems.mealorder.UI.AutoResizeTextView

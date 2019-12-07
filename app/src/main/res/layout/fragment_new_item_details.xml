@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="733dp"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="@android:color/white"
+    android:background="@drawable/wheat"
     android:orientation="vertical">
 
 
@@ -21,7 +21,7 @@
             android:fontFamily="@font/yeseva_one"
             android:gravity="center_horizontal"
             android:text="Something to order?"
-            android:textColor="@android:color/black"
+            android:textColor="@android:color/white"
             android:textSize="30sp"
             android:textStyle="bold" />
 
@@ -53,7 +53,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@android:color/holo_blue_dark"
+                    android:background="#630118"
                     android:orientation="vertical">
 
                     <rw.datasystems.mealorder.UI.AutoResizeTextView
@@ -102,7 +102,7 @@
                 android:fontFamily="@font/artifika"
                 android:lines="3"
                 android:text="Food description"
-                android:textColor="@android:color/black"
+                android:textColor="@android:color/white"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
@@ -124,11 +124,11 @@
                 app:integer_priority="true"
                 app:min_value="1"
                 app:picker_corner_radius="10"
-                app:pickers_background_color="@android:color/holo_blue_dark"
+                app:pickers_background_color="#630118"
                 app:swipe_enabled="false"
                 app:value="1"
-                app:value_background_color="@android:color/white"
-                app:value_text_color="@android:color/holo_blue_dark" />
+                app:value_background_color="#946015"
+                app:value_text_color="#630118" />
 
 
         </LinearLayout>
@@ -146,7 +146,7 @@
             android:id="@+id/back"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/badge"
+            android:background="@drawable/create_card_edge"
             android:drawableLeft="@drawable/ic_arrow_back_black_24dp"
             android:drawableTint="@android:color/white"
             android:text="back"
@@ -161,7 +161,7 @@
             android:id="@+id/addtopplate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/badge"
+            android:background="@drawable/create_card_edge"
             android:drawableRight="@drawable/ic_arrow_forward_black_24dp"
             android:text="Next"
             android:layout_marginLeft="20dp"

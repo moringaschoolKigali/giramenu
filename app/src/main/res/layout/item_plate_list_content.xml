@@ -21,6 +21,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="82dp"
                 android:layout_margin="8dp"
+                android:background="#946015"
                 android:orientation="horizontal"
                 android:weightSum="1">
 
@@ -38,7 +39,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/aubrey"
                         android:text="Name"
-                        android:textColor="#191970"
+                        android:textColor="@android:color/white"
                         android:textSize="22sp" />
 
                     <rw.datasystems.mealorder.UI.CustomFontText
@@ -47,7 +48,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/alegreya_sc"
                         android:text="priceclass"
-                        android:textColor="#191970"
+                        android:textColor="@android:color/white"
                         android:textSize="20sp"
                         android:textStyle="bold" />
 

@@ -5,7 +5,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:gravity="center_horizontal"
-    android:background="@android:color/white"
+    android:background="@drawable/wheat"
     android:layout_height="match_parent">
 
     <androidx.legacy.widget.Space
@@ -16,8 +16,7 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="70dp"
-        android:paddingRight="64dp"
-        >
+        android:paddingRight="64dp">
 
         <rw.datasystems.mealorder.UI.CustomFontText
             android:textSize="38sp"
@@ -35,7 +34,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/english"
             android:textColor="@android:color/white"
-            android:background="@drawable/badge"
+            android:background="@drawable/create_card_edge"
             android:layout_width="150dp"
             android:textStyle="bold" />
 
@@ -49,7 +48,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/french"
             android:textColor="@android:color/white"
-            android:background="@drawable/badge"
+            android:background="@drawable/create_card_edge"
             android:layout_width="150dp"
             android:textStyle="bold" />
     </LinearLayout>
@@ -93,7 +92,7 @@
 
             <rw.datasystems.mealorder.UI.CustomFontButton
                 android:id="@+id/eatin"
-                android:background="@drawable/badge"
+                android:background="@drawable/create_card_edge"
                 android:layout_width="wrap_content"
                 android:textSize="12sp"
                 android:textColor="@android:color/white"
@@ -108,7 +107,7 @@
                 android:id="@+id/takeaway"
                 android:layout_height="wrap_content"
                 android:textSize="12sp"
-                android:background="@drawable/badge"
+                android:background="@drawable/create_card_edge"
                 android:textColor="@android:color/white"
                 android:layout_width="wrap_content"
                 android:text="TAKE AWAY"/>

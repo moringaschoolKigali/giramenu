@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:card_view="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
     <androidx.cardview.widget.CardView
@@ -86,7 +87,7 @@
                 <rw.datasystems.mealorder.UI.CustomFontButton
                     android:layout_width="match_parent"
                     android:layout_height="30dp"
-                    android:background="@drawable/badge"
+                    android:background="@drawable/create_card_edge"
                     android:layout_marginBottom="8dp"
                     android:id="@+id/catlabel"
                     android:textSize="10sp"

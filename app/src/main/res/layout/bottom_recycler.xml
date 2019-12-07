@@ -19,7 +19,7 @@
         android:id="@+id/addtoorder"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/badge"
+        android:background="@drawable/create_card_edge"
         android:drawableRight="@drawable/ic_arrow_forward_black_24dp"
         android:drawableTint="@android:color/white"
         android:text="NEXT"

@@ -5,13 +5,15 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:gravity="center_horizontal"
-    android:background="@android:color/white"
+
+    android:background="@drawable/background"
     android:onClick="click"
     android:layout_height="match_parent">
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@drawable/wheat">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -26,8 +28,7 @@
                 android:onClick="click"
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
-                >
+                android:layout_height="70dp">
 
                 <rw.datasystems.mealorder.UI.CustomFontText
 
@@ -38,7 +39,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="ORDER COMPLETED"
-                    android:textColor="@android:color/holo_blue_dark"
+                    android:textColor="#85001F"
                     android:onClick="click"
                     android:textStyle="bold"
                     />
@@ -68,8 +69,8 @@
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
                         android:onClick="click"
+                        android:textColor="#85001F"
                         android:text="Thank you for ordering"
-                        android:textColor="@android:color/holo_blue_dark"
                         android:textSize="25sp" />
 
                     <rw.datasystems.mealorder.UI.CustomFontText
@@ -80,8 +81,8 @@
                         android:gravity="center_horizontal"
                         android:lines="2"
                         android:onClick="click"
+                        android:textColor="#85001F"
                         android:text="PLEASE REMEMBER YOUR ORDER NUMBER"
-                        android:textColor="@android:color/holo_blue_dark"
                         android:textSize="20sp" />
 
                     <androidx.legacy.widget.Space
@@ -154,7 +155,8 @@
                     android:inputType="textPersonName"
                     android:onClick="click"
                     android:text="Powered by"
-                    android:textColor="@android:color/holo_blue_dark"
+                    android:textColor="#85001F"
+                    android:textStyle="bold"
                     android:textSize="24sp" />
 
                 <ImageView

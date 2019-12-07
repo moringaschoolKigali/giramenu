@@ -6,6 +6,7 @@
     android:layout_height="wrap_content"
     android:gravity="center_horizontal"
     android:paddingTop="8dp"
+    android:background="@drawable/wheat"
     android:orientation="vertical"
     android:weightSum="1">
 
@@ -66,7 +67,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:text=""
-                        android:textColor="@android:color/holo_blue_dark"
+                        android:textColor="@android:color/white"
                         android:textSize="24sp"
                         tools:textColor="@android:color/white" />
 
@@ -115,7 +116,7 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:layout_margin="10dp"
-        android:background="@drawable/badge"
+        android:background="@drawable/create_card_edge"
         android:layout_marginBottom="8dp"
         android:orientation="vertical"
         android:paddingTop="10dp">

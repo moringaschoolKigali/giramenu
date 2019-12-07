@@ -3,7 +3,7 @@
        android:padding="10dp"
        android:shape="rectangle">
 
-    <solid android:color="@color/pickers_background"/>
+    <solid android:color="#630118"/>
 
     <corners android:bottomLeftRadius="5dp"
              android:bottomRightRadius="5dp"

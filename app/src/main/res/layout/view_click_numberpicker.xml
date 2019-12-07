@@ -24,7 +24,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
-                    android:background="@android:color/holo_blue_dark"
+                    android:background="#946015"
                     app:layout_widthPercent="40%">
 
 

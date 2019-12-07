@@ -9,7 +9,7 @@
         android:id="@+id/priceclassbtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@android:color/holo_blue_dark"
+        android:background="@drawable/create_card_edge"
         android:text="Glass"
         android:layout_margin="10dp"
         android:padding="10dp"
