@@ -473,7 +473,7 @@ public class CategoryActivity extends AppCompatActivity {
         localLayoutParams.format = PixelFormat.TRANSPARENT;
 
         blockingView = new CustomViewGroup(this);
-        manager.addView(blockingView, localLayoutParams);
+t        manager.addView(blockingView, localLayoutParams);
     }
 
     public static final int OVERLAY_PERMISSION_REQ_CODE = 4545;
